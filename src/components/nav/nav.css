@@ -1,6 +1,7 @@
 
 .nav{
     margin-top:30px;
+    position: fixed;
 }
 
 .nav-logo-top{
