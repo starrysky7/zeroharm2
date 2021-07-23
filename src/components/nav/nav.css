@@ -1,0 +1,39 @@
+
+.nav{
+    margin-top:30px;
+}
+
+.nav-logo-top{
+    display:block;
+    font-size:30px;
+    font-family: 'Roboto',sans-serif;
+    color: #005d2e;
+}
+
+.nav-logo-bottom{
+    display:block;
+    font-family: 'Roboto',sans-serif;
+    font-size:12px;
+    text-align: right;
+    color:#005d2e;
+}
+
+.nav-logo-container{
+    display: inline-block;
+}
+
+.nav-items-container{
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+    top:10px;
+}
+.nav-item{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:#666;
+    margin-left:50px;
+    font-size:13px;
+    letter-spacing: 1px;
+}
