@@ -14,9 +14,11 @@
 .nav-logo-bottom {
     display: block;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     text-align: right;
     color: #005d2e;
+    position: relative;
+    top:-10px
 }
 
 .nav-logo-container {
@@ -27,7 +29,7 @@
     display: inline-block;
     vertical-align: top;
     position: relative;
-    top: 10px;
+    top: 14px;
 }
 
 .nav-item {

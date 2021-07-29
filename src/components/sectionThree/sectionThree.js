@@ -8,7 +8,7 @@ function sectionTwo() {
       <ReactBootStrap.Row>
 
         <ReactBootStrap.Col xs={6} md={8} >
-          <img className="image" src="image_02.png" />
+          <img className="section3-image" src="Genomics circle.jpg" />
         </ReactBootStrap.Col>
         
         <ReactBootStrap.Col xs={6} md={4}>

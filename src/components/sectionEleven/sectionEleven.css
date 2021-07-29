@@ -1,0 +1,46 @@
+.solid-bg-purple{
+    background-color: #a05cbf;
+}
+
+.solid-bg-blue{
+    background-color: #407c8d;
+}
+
+.section11-carousel-item{
+    display: none;
+}
+
+.section11-carousel-item:first-of-type{
+    display: block;
+}
+
+.section11-left-arrow{
+    width:50px;
+    position: absolute;
+    top:50%;
+    left:50px;
+    transform: translateY(-100%);
+}
+
+.section11-right-arrow{
+    width:50px;
+    position: absolute;
+    top:50%;
+    right:50px;
+    transform: translateY(-100%);
+}
+
+.bottleImage{
+    width:300px;
+    margin:20% 0 20% 35%;
+}
+
+.bottle-image-small{
+    width:250px;
+    margin:18% 0 20% 38%;
+}
+
+.section11-carousel-item .content-container{
+    margin:40% 0 0 20%;
+    width:300px;
+}

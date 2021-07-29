@@ -7,17 +7,24 @@ function sectionEight() {
     <div className="section" >
       <ReactBootStrap.Row>
 
-        <ReactBootStrap.Col xs={12} md={6}>
+        <ReactBootStrap.Col xs={12} md={5}>
           <div className="content-container section8-content-container">
-            <span className="title-text green">EXTRACT WITHOUT HARM.</span>
-            <span className="default-text grey">The naturally pure produce must be taken<br />forward with a pure, natural extraction<br />process. We have a unique and proprietary<br />aqueous extraction process. This allows the<br />high levels of purity to be maintained and<br />is designed to global standards</span>
+            <span className="title-text green">IN TEST WE TRUST.</span>
+            <span className="default-text grey">We are at the intersection of nature and efcacy.
+            The tests are at the highest levels at Laboratories
+            of international repute. <br /><br />
+
+            A promise that lives up even in the generics range.
+            For instance the Laboratory testing showed
+            serum levels by more than ve times with our
+            nano-capsulated generics over conventional generics.</span>
             <button class="default-button green">KNOW MORE</button>
           </div>
         </ReactBootStrap.Col>
-        
-        <ReactBootStrap.Col xs={12} md={6} >
+
+        <ReactBootStrap.Col xs={12} md={7} >
           <div >
-            <img className="machineImage" src="machine.jpg" />
+            <img className="machineImage" src="in test we trust.png" />
           </div>
         </ReactBootStrap.Col>
 

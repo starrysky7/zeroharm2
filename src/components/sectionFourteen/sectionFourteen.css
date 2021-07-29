@@ -1,0 +1,26 @@
+.section14-left{
+    background:url(Untitled-2.png);
+    background-size: cover;
+}
+
+.section14-left .content-container{
+    padding:100px 0 100px 50px;
+}
+
+.form-container{
+    margin:20px 0 0 100px;
+}
+
+.form-field{
+    margin-bottom: 20px;
+}
+
+.form-field:last-of-type{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.form-field::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+}

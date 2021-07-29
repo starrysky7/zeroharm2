@@ -1,0 +1,16 @@
+.section13{
+    margin:70px 0 0 0;
+}
+
+.section13 .content-container{
+    margin:100px 0 0 80px;
+}
+.section13 .content-container .title-text{
+    font-size:22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.dna-tree-image{
+    width:300px;
+}

@@ -77,4 +77,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  position: relative;
+}
+
+input{
+  display: block;
+  border:none;
+  border-bottom:1px solid #666;
+  width:500px;
+  font-family: 'FuturaStd',sans-serif ;
+  padding:5px 10px;
+  outline: none;
 }

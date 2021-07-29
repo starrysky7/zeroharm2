@@ -1,6 +1,11 @@
 
 .section2{
-    background-image:url(/src/dna_00000-min.png);
+    background-image:url(dna.png);
+    background-size:150vw auto;
+    background-position-y: 45%;
+    background-position-x: 45%;
+    background-repeat: no-repeat;
+    background-color: #aacaba;
 }
 
 .section2-content-container{
@@ -11,4 +16,12 @@
     line-height: 30px;
     font-size: 12px;
     font-weight: bold;
+}
+
+.section2-small-text{
+    font-size:10px;
+    font-style: italic;
+    position: relative;
+    top:-10px;
+    color:#000;
 }
