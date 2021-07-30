@@ -1,8 +1,14 @@
-
-.section4{
-    background-image:url(/src/image_03.png);
+.section4 {
+    background-image: url(/src/image_03.png);
 }
 
-.section4-content-container{
-    margin:200px 0 0 80px;
+.section4-content-container {
+    margin: 200px 0 0 80px;
+}
+
+@media (max-width:576px) {
+    .section4-content-container {
+        width: 320px;
+        margin: 170% 0 0 8%;
+    }
 }

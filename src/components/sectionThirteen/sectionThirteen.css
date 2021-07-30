@@ -1,5 +1,6 @@
 .section13{
     margin:70px 0 0 0;
+    overflow: hidden;
 }
 
 .section13 .content-container{
@@ -13,4 +14,22 @@
 
 .dna-tree-image{
     width:300px;
+}
+
+@media (max-width:576px){
+    
+    .section13{
+        margin:10% 0 0 0;
+    }
+
+    .dna-tree-image{
+        width:100%;
+        position: relative;
+        top:20%
+    }
+
+    .section13 .content-container{
+        margin:20% 0 0 10%;
+    }
+    
 }

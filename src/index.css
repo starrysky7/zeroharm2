@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: Analogue45Light;
   src: url(/src/fonts/Analogue45Light.ttf);
@@ -19,60 +18,60 @@
   src: url(/src/fonts/Mayeka_Light\ Demo.otf);
 }
 
-.green{
-  color:#005d2e;
-  border-color:#005d2e !important;
+.green {
+  color: #005d2e;
+  border-color: #005d2e !important;
 }
 
-.white{
-  color:#fff;
-  border-color:#fff !important;
+.white {
+  color: #fff;
+  border-color: #fff !important;
 }
 
-.grey{
-  color:#666;
-  border-color:#666;
+.grey {
+  color: #666;
+  border-color: #666;
 }
 
-.default-button{
-  background-color: rgba(255,255,255,0);
-  padding:10px 15px;
+.default-button {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 15px;
   display: flex;
   font-family: 'FuturaStd', sans-serif;
-  font-size:16px;
-  border:1px solid #000;
+  font-size: 16px;
+  border: 1px solid #000;
   letter-spacing: 1px;
 }
 
-.title-text{
+.title-text {
   font-size: 50px;
   font-family: 'FuturaStd', sans-serif;
   letter-spacing: 5px;
   display: block;
 }
 
-.default-text{
+.default-text {
   font-size: 14px;
   font-family: 'FuturaStd', sans-serif;
   letter-spacing: 1px;
   display: block;
-  margin:20px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
-.align-right{
+.align-right {
   text-align: right;
 }
 
-.float-right{
-  float:right;
+.float-right {
+  float: right;
 }
 
-.content-container{
-  width:100%;
+.content-container {
+  width: 100%;
 }
 
-.section{
-/*  width:100vw;*/
+.section {
+  /*  width:100vw;*/
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,25 +79,29 @@
   position: relative;
 }
 
-input{
+input {
   display: block;
-  border:none;
-  border-bottom:1px solid #666;
-  width:100%;
-  font-family: 'FuturaStd',sans-serif ;
-  padding:5px 10px;
+  border: none;
+  border-bottom: 1px solid #666;
+  width: 100%;
+  font-family: 'FuturaStd', sans-serif;
+  padding: 5px 10px;
   outline: none;
 }
-@media (max-width: 768px) { 
-  .default-text{
-      font-size: 12px; 
-      text-align: left;
-    }
-    .title-text{
-        font-size: 30px;
-        text-align: left;
-    }
-    .mobileHide{
+
+@media (max-width: 768px) {
+  .default-text {
+    font-size: 12px;
+    text-align: left;
+  }
+  .title-text {
+    font-size: 30px;
+    text-align: left;
+  }
+  .mobileHide {
     display: none;
-}
+  }
+  .float-right {
+    float: left;
+  }
 }

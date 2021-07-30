@@ -8,3 +8,11 @@
 .section8-content-container{
     margin:35% 0 0 80px;
 }
+
+@media (max-width:576px){
+    .section8-content-container{
+        margin:10% 0 10% 5%;
+        width:320px;
+    }
+    
+}

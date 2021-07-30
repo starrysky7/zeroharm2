@@ -25,3 +25,23 @@
     top:-10px;
     color:#000;
 }
+
+@media (max-width:576px){
+    .section2{
+        height:150vh;
+        background-image:url(dna-reverse.png);
+        background-size:400vw auto;
+        background-position-y: -70%;
+        background-position-x: 40%;
+    }
+    .section2-text{
+        line-height: 20px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .section2-content-container{
+        margin:80vh 0 0 20px;
+        width:320px
+    }
+}

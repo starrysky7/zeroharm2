@@ -17,15 +17,20 @@
 }
 
 @media (max-width: 576px) {
+
     .flower-image-1, .flower-image-2, .flower-image-3, .flower-image-4, .flower-image-5, .flower-image-6, .flower-image-7, .flower-image-8, .flower-image-9, .flower-image-10, .flower-image-11, .flower-image-12, .flower-image-13, .flower-image-14, .flower-image-15, .flower-image-16, .flower-image-17, .flower-image-18, .flower-image-19, .flower-image-20, .flower-image-21, .flower-image-22, .flower-image-23, .flower-image-24, .flower-image-25, .flower-image-26, .flower-image-27, .flower-image-28, .flower-image-29, .flower-image-30, .flower-image-31, .flower-image-32, .flower-image-33, .flower-image-34, .flower-image-35{
-        width: 400px;
-        margin-top:5%;
-        margin-left: 15%;
+        width: 320px;
+        margin:0 auto 0 auto;
         height: auto;
         display: none;
     }
     
     .show{
         display: block;
+    }
+
+    .section7-content-container{
+        margin:0;
+        padding: 5% 5% 0 5%;
     }
 }

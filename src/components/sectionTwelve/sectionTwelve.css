@@ -40,3 +40,40 @@
         transform: rotate(-70deg);
     }
 }
+
+@keyframes s12-leaf-anim-mobile {
+    0% {
+        transform: rotate(-80deg);
+    }
+    50% {
+        transform: rotate(-70deg);
+    }
+    100% {
+        transform: rotate(-80deg);
+    }
+}
+
+@media (max-width:576px){
+    .section12{
+        margin: 10% 0 0 5%;
+    }
+
+    .section12 .title-text{
+        margin-top:100%;
+    }
+
+    .section12 .default-text{
+        font-size: 10px;
+    }
+
+    .cert-icon-small{
+        height:20px;
+    }
+
+    .section12-leaf{
+        width:50%;
+        animation-name: s12-leaf-anim-mobile;
+    }
+
+
+}

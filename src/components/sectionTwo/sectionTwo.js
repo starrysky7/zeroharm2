@@ -8,15 +8,28 @@ function SectionTwo(props) {
   const [anim, setAnim] = useState()
   const s2 = useRef();
 
-  useEffect(() => {
-    setAnim(
-      anime({
-        targets: '.section2',
-        'background-position-x': '20%',
-        'background-position-y': '70%',
-        autoplay: false
-      })
-    );
+  useEffect(()=>{
+    if (Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) >=425)
+      setAnim(
+        anime({
+          targets: '.section2',
+          'background-position-x': '20%',
+          'background-position-y': '70%',
+          easing: 'linear',
+          autoplay: false
+        })
+      )
+
+    else
+      setAnim(
+        anime({
+          targets: '.section2',
+          'background-position-x': '50%',
+          'background-position-y': '-70%',
+          easing: 'linear',
+          autoplay: false
+        })
+      )
   }, [setAnim]);
 
   useEffect(() => {

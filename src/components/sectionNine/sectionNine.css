@@ -9,7 +9,10 @@
     padding:0 80px 0 0;
 }
 @media(max-height:768px){
+    .section9{
+        background-position-x:50% ;
+    }
     .section9-content-container{
-          margin:40% 0 0 5%;
+          margin:70% 0 0 5%;
     }
 }
