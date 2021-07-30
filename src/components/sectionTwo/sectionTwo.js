@@ -8,8 +8,8 @@ function SectionTwo(props) {
   const [anim, setAnim] = useState()
   const s2 = useRef();
 
-  useEffect(()=>{
-    if (Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) >=425)
+  useEffect(() => {
+    if (Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) >= 425)
       setAnim(
         anime({
           targets: '.section2',
@@ -34,7 +34,11 @@ function SectionTwo(props) {
 
   useEffect(() => {
     if (!anim) return;
-    anim.seek(anim.duration * (props.scrollValue * 0.01));
+
+    if (Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) >= 425)
+      anim.seek(anim.duration * (props.scrollValue * 0.01));
+    else
+      anim.seek(anim.duration * (props.scrollValue * 0.08));
   }, [props.scrollValue, anim]);
 
   return (

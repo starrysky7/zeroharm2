@@ -1,4 +1,10 @@
-.about-section5{
+.about-section5 {
     background: url(nano.jpg);
     background-size: cover;
+}
+
+@media (max-width:576px) {
+    .about-section5 {
+        background-position-x: 50%;
+    }
 }
