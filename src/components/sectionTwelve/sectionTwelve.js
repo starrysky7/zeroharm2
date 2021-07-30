@@ -15,16 +15,16 @@ function sectionTwelve() {
 
       <ReactBootStrap.Row>
 
-        <ReactBootStrap.Col xs={6} md={2} >
+        <ReactBootStrap.Col sm={1} md={2} >
             <span className="default-text">GFSI [FSSC 2200, V 5.0]</span>
             <img className="cert-icon-small" src="certification/fssc.png" />
         </ReactBootStrap.Col>
-        <ReactBootStrap.Col xs={6} md={3} >
+        <ReactBootStrap.Col sm={1} md={3} >
             <span className="default-text">NSFCGMP [CFR111] &amp; FSMA [CFR117]</span>
             <img className="cert-icon" src="certification/nsf.png" />
             <img className="cert-icon" src="certification/fda.png" />
         </ReactBootStrap.Col>
-        <ReactBootStrap.Col xs={6} md={4} >
+        <ReactBootStrap.Col sm={12} md={4} >
             <span className="default-text">ORGANIC CERTIFICATIONS [NOP Organic, NPOP Organic, EU Organic]</span>
             <img className="cert-icon" src="certification/usda.jpg" />
             <img className="cert-icon" src="certification/india organic.png" />
@@ -35,19 +35,19 @@ function sectionTwelve() {
      
       <ReactBootStrap.Row>
 
-        <ReactBootStrap.Col xs={6} md={1} >
+        <ReactBootStrap.Col xs={2} md={1} >
             <span className="default-text">KOSHER</span>
             <img className="cert-icon" src="certification/k star.png" />
         </ReactBootStrap.Col>
-        <ReactBootStrap.Col xs={6} md={1} >
+        <ReactBootStrap.Col xs={2} md={1} >
             <span className="default-text">HALAL</span>
             <img className="cert-icon" src="certification/halal india.png" />
         </ReactBootStrap.Col>
-        <ReactBootStrap.Col xs={6} md={1} >
+        <ReactBootStrap.Col xs={2} md={1} >
             <span className="default-text">HACCP</span>
             <img className="cert-icon" src="certification/haccp.png" />
         </ReactBootStrap.Col>
-        <ReactBootStrap.Col xs={6} md={2} >
+        <ReactBootStrap.Col xs={4} md={2} >
             <span className="default-text">ISO 9001:2015</span>
             <img className="cert-icon" src="certification/iso.png" />
         </ReactBootStrap.Col>
