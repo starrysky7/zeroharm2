@@ -19,7 +19,7 @@ const Nav = () => {
                <a href="#" className="nav-item">Products</a>
                <a href="#" className="nav-item">Validation</a>
                <a href="#" className="nav-item">Beliefs</a>
-               <a href="#" className="nav-item">Contact Us</a>
+               <a href="#" className="nav-item mobileHide">Contact Us</a>
            </div>
    </div>
      

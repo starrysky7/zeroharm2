@@ -6,14 +6,14 @@ function sectionFourteen() {
         <div>
             <ReactBootStrap.Row>
 
-                <ReactBootStrap.Col xs={6} md={5} className="section14-left">
+                <ReactBootStrap.Col xs={12} md={5} className="section14-left">
                     <div className="content-container">
                         <span className="title-text white">CONTACT US</span>
                         <span className="default-text white">Zeroharm Sciences Private Limited<br />Unit B23, Phase II, Technocrats Industrial Estate,<br />Balanagar, Hyderabad - 500 037. India</span>
                     </div>
                 </ReactBootStrap.Col>
 
-                <ReactBootStrap.Col xs={6} md={7} >
+                <ReactBootStrap.Col xs={12} md={7} >
                     <div className="form-container">
                         <input className="form-field" type="text" placeholder="Your Name(required)" />
                         <input className="form-field" type="text" placeholder="Your Email(required)" />

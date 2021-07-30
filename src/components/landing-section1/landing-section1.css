@@ -1,24 +1,24 @@
 .leaf-anim-container {
+
     position: absolute;
-    display: inline-block;
-    width: 600px;
-    bottom:0;
-    transform: translateY(-600px);
+    margin-left: 5%;
+
 }
 
 .leaf-static-img {
-    width: 300px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    z-index: 10;
+    max-width: 71%;
+    max-height: 100vh;
+    margin-top: 10%;
+    display: inline-block;
+
 }
 
 .leaf-anim-img {
-    width: 300px;
-    position: absolute;
-    top: 157px;
-    left: 192px;
+    max-width: 71%;
+    max-height: 100vh;
+    margin-top: -80%;
+    margin-left: 40%;
+    display: inline-block;
     transform: rotate(50deg);
     z-index: 11;
     animation-name: leaf-anim;
@@ -30,9 +30,11 @@
     0% {
         transform: rotate(50deg);
     }
+
     50% {
         transform: rotate(30deg) translateX(-100px) translateY(-20px);
     }
+
     100% {
         transform: rotate(50deg);
     }
@@ -46,4 +48,40 @@
 .landing-section1-text2 {
     display: block;
     margin: 130% 80px 0 0;
+    text-align: center;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+
+@media (max-width: 576px) {
+    .leaf-anim-container {
+        margin-top: 15%;
+    }
+
+    .landing-section1-text1 {
+        margin: 30% 0 0 0;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    .landing-section1-text2 {
+        display: block;
+        margin: 1% 0 0 0;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    .leaf-static-img {
+        max-width: 54%;
+    }
+
+    .leaf-anim-img {
+        max-width: 54%;
+        margin-left:
+    }
 }

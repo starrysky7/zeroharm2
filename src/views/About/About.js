@@ -44,15 +44,34 @@ function Landing() {
       <LandingSection5/>
       <LandingSection6/>
       <LandingSection7 scrollValue={scrollValue}/>
-      <LandingSection9/>      
-      <LandingSection8/>
-      <LandingSection10/>
-      <LandingSection11/>
-      <LandingSection12/>
-      <LandingSection13/>
-      <LandingSection14/>
+      <LandingSection9/>
+    <LandingSection8/>
+    <LandingSection10/>
+    <LandingSection11/>
+    <LandingSection12/>
+    <LandingSection13/>
+    <LandingSection14/>
+    
+   
+    
+ 
     </div>
   );
 }
 
 export default Landing;
+//       <LandingSection8/>
+//      <LandingSection9/>
+//      <LandingSection10/>
+//      <LandingSection11/>
+//         <LandingSection12/>
+//        <LandingSection13/>
+//      <LandingSection6/>
+//      <LandingSection7 scrollValue={scrollValue}/>
+//      <LandingSection9/>      
+//      <LandingSection8/>
+//      <LandingSection10/>
+//      <LandingSection11/>
+//      <LandingSection12/>
+//      <LandingSection13/>
+//      <LandingSection14/>

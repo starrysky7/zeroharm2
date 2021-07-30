@@ -1,216 +1,264 @@
 import './sectionSeven.css';
 import * as ReactBootStrap from "react-bootstrap";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function SectionSeven(props) {
 
+  const [beginPercent, setBeginPercent] = useState(0);
+  const [frameInterval, setFrameInterval] = useState(0)
+
+  useEffect(() => {
+    setBeginPercent(((window.scrollY + document.getElementsByClassName('section7')[0].getBoundingClientRect().top) / (document.documentElement.scrollHeight + document.documentElement.clientHeight)
+    ) * 100)
+
+    setFrameInterval((((((window.scrollY + document.getElementsByClassName('section7')[0].getBoundingClientRect().bottom) / document.documentElement.scrollHeight) - document.documentElement.clientHeight
+    ) * 100)-((((window.scrollY + document.getElementsByClassName('section7')[0].getBoundingClientRect().top) / document.documentElement.scrollHeight) - document.documentElement.clientHeight
+    ) * 100))/35)
+  }, [])
+
   useEffect(() => {
 
-    if (props.scrollValue > 48.571847364961755 && props.scrollValue < 49.571847364961755) {
+    console.log(frameInterval)
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 0)) && props.scrollValue < (beginPercent + (frameInterval * (0 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-1')[0].classList.add('show')
     }
-    if (props.scrollValue > 48.82633861268989 && props.scrollValue < 49.82633861268989) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 1)) && props.scrollValue < (beginPercent + (frameInterval * (1 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-2')[0].classList.add('show')
     }
-    if (props.scrollValue > 49.08082986041802 && props.scrollValue < 50.08082986041802) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 2)) && props.scrollValue < (beginPercent + (frameInterval * (2 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-3')[0].classList.add('show')
     }
-    if (props.scrollValue > 49.335321108146154 && props.scrollValue < 50.335321108146154) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 3)) && props.scrollValue < (beginPercent + (frameInterval * (3 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-4')[0].classList.add('show')
     }
-    if (props.scrollValue > 49.58981235587429 && props.scrollValue < 50.58981235587429) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 4)) && props.scrollValue < (beginPercent + (frameInterval * (4 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-5')[0].classList.add('show')
     }
-    if (props.scrollValue > 49.84430360360242 && props.scrollValue < 50.84430360360242) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 5)) && props.scrollValue < (beginPercent + (frameInterval * (5 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-6')[0].classList.add('show')
     }
-    if (props.scrollValue > 50.09879485133055 && props.scrollValue < 51.09879485133055) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 6)) && props.scrollValue < (beginPercent + (frameInterval * (6 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-7')[0].classList.add('show')
     }
-    if (props.scrollValue > 50.353286099058685 && props.scrollValue < 51.353286099058685) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 7)) && props.scrollValue < (beginPercent + (frameInterval * (7 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-8')[0].classList.add('show')
     }
-    if (props.scrollValue > 50.60777734678682 && props.scrollValue < 51.60777734678682) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 8)) && props.scrollValue < (beginPercent + (frameInterval * (8 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-9')[0].classList.add('show')
     }
-    if (props.scrollValue > 50.86226859451495 && props.scrollValue < 51.86226859451495) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 9)) && props.scrollValue < (beginPercent + (frameInterval * (9 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-10')[0].classList.add('show')
     }
-    if (props.scrollValue > 51.116759842243084 && props.scrollValue < 52.116759842243084) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 10)) && props.scrollValue < (beginPercent + (frameInterval * (10 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-11')[0].classList.add('show')
     }
-    if (props.scrollValue > 51.37125108997122 && props.scrollValue < 52.37125108997122) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 11)) && props.scrollValue < (beginPercent + (frameInterval * (11 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-12')[0].classList.add('show')
     }
-    if (props.scrollValue > 51.62574233769935 && props.scrollValue < 52.62574233769935) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 12)) && props.scrollValue < (beginPercent + (frameInterval * (12 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-13')[0].classList.add('show')
     }
-    if (props.scrollValue > 51.88023358542748 && props.scrollValue < 52.88023358542748) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 13)) && props.scrollValue < (beginPercent + (frameInterval * (13 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-14')[0].classList.add('show')
     }
-    if (props.scrollValue > 52.134724833155616 && props.scrollValue < 53.134724833155616) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 14)) && props.scrollValue < (beginPercent + (frameInterval * (14 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-15')[0].classList.add('show')
     }
-    if (props.scrollValue > 52.38921608088375 && props.scrollValue < 53.38921608088375) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 15)) && props.scrollValue < (beginPercent + (frameInterval * (15 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-16')[0].classList.add('show')
     }
-    if (props.scrollValue > 52.64370732861188 && props.scrollValue < 53.64370732861188) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 16)) && props.scrollValue < (beginPercent + (frameInterval * (16 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-17')[0].classList.add('show')
     }
-    if (props.scrollValue > 52.898198576340015 && props.scrollValue < 53.898198576340015) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 17)) && props.scrollValue < (beginPercent + (frameInterval * (17 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-18')[0].classList.add('show')
     }
-    if (props.scrollValue > 53.15268982406815 && props.scrollValue < 54.15268982406815) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 18)) && props.scrollValue < (beginPercent + (frameInterval * (18 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-19')[0].classList.add('show')
     }
-    if (props.scrollValue > 53.40718107179628 && props.scrollValue < 54.40718107179628) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 19)) && props.scrollValue < (beginPercent + (frameInterval * (19 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-20')[0].classList.add('show')
     }
-    if (props.scrollValue > 53.66167231952441 && props.scrollValue < 54.66167231952441) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 20)) && props.scrollValue < (beginPercent + (frameInterval * (20 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-21')[0].classList.add('show')
     }
-    if (props.scrollValue > 53.916163567252546 && props.scrollValue < 54.916163567252546) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 21)) && props.scrollValue < (beginPercent + (frameInterval * (21 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-22')[0].classList.add('show')
     }
-    if (props.scrollValue > 54.17065481498068 && props.scrollValue < 55.17065481498068) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 22)) && props.scrollValue < (beginPercent + (frameInterval * (22 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-23')[0].classList.add('show')
     }
-    if (props.scrollValue > 54.42514606270881 && props.scrollValue < 55.42514606270881) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 23)) && props.scrollValue < (beginPercent + (frameInterval * (23 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-24')[0].classList.add('show')
     }
-    if (props.scrollValue > 54.679637310436945 && props.scrollValue < 55.679637310436945) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 24)) && props.scrollValue < (beginPercent + (frameInterval * (24 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-25')[0].classList.add('show')
     }
-    if (props.scrollValue > 54.93412855816508 && props.scrollValue < 55.93412855816508) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 25)) && props.scrollValue < (beginPercent + (frameInterval * (25 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-26')[0].classList.add('show')
     }
-    if (props.scrollValue > 55.18861980589321 && props.scrollValue < 56.18861980589321) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 26)) && props.scrollValue < (beginPercent + (frameInterval * (26 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-27')[0].classList.add('show')
     }
-    if (props.scrollValue > 55.443111053621344 && props.scrollValue < 56.443111053621344) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 27)) && props.scrollValue < (beginPercent + (frameInterval * (27 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-28')[0].classList.add('show')
     }
-    if (props.scrollValue > 55.69760230134948 && props.scrollValue < 56.69760230134948) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 28)) && props.scrollValue < (beginPercent + (frameInterval * (28 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-29')[0].classList.add('show')
     }
-    if (props.scrollValue > 55.95209354907761 && props.scrollValue < 56.95209354907761) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 29)) && props.scrollValue < (beginPercent + (frameInterval * (29 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-30')[0].classList.add('show')
     }
-    if (props.scrollValue > 56.20658479680574 && props.scrollValue < 57.20658479680574) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 30)) && props.scrollValue < (beginPercent + (frameInterval * (30 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-31')[0].classList.add('show')
     }
-    if (props.scrollValue > 56.461076044533876 && props.scrollValue < 57.461076044533876) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 31)) && props.scrollValue < (beginPercent + (frameInterval * (31 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-32')[0].classList.add('show')
     }
-    if (props.scrollValue > 56.71556729226201 && props.scrollValue < 57.71556729226201) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 32)) && props.scrollValue < (beginPercent + (frameInterval * (32 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-33')[0].classList.add('show')
     }
-    if (props.scrollValue > 56.97005853999014 && props.scrollValue < 57.97005853999014) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 33)) && props.scrollValue < (beginPercent + (frameInterval * (33 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
       document.getElementsByClassName('flower-image-34')[0].classList.add('show')
     }
-    if (props.scrollValue > 57.224549787718274 && props.scrollValue < 58.224549787718274) {
+
+    if (props.scrollValue > (beginPercent + (frameInterval * 34)) && props.scrollValue < (beginPercent + (frameInterval * (34 + 1)))) {
       for (var i = 1; i < 36; i++) {
         document.getElementsByClassName('flower-image-' + i)[0].classList.remove('show')
       }
@@ -220,10 +268,10 @@ function SectionSeven(props) {
   })
 
   return (
-    <div className="section" >
+    <div className="section section7" >
       <ReactBootStrap.Row>
 
-        <ReactBootStrap.Col xs={12} md={7} >
+        <ReactBootStrap.Col xs={12} md={7} className="flower-anim">
           <div>
             <img className="flower-image-1 show" src="/images/one petal_00001.png" />
             <img className="flower-image-2" src="/images/one petal_00002.png" />

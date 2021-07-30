@@ -8,7 +8,7 @@
 }
 
 .form-container{
-    margin:20px 0 0 100px;
+    margin:5% 5% 0 5%;
 }
 
 .form-field{
@@ -23,4 +23,10 @@
 .form-field::placeholder{
     font-size: 14px;
     letter-spacing: 1px;
+}
+@media(max-width:568px){
+    .form-container{
+    margin:4% 2% 0 5%;
+}
+    
 }
