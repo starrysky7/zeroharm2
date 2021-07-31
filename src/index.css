@@ -105,3 +105,9 @@ input {
     float: left;
   }
 }
+
+@media (max-width: 1200px) {
+  .section{
+    min-height:fit-content;
+  }
+}
