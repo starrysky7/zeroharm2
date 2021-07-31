@@ -106,6 +106,10 @@ input {
   .float-right {
     float: left;
   }
+
+  .section{
+    margin-bottom:5%;
+  }
 }
 
 @media (max-width: 1200px) {

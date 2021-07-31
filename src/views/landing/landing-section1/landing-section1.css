@@ -53,7 +53,7 @@
 
 @media (max-width: 576px) {
     .leaf-anim-container {
-        margin-top: 15%;
+        margin-top: 18%;
     }
     .landing-section1-text1 {
         margin: 30% 0 0 0;
@@ -73,5 +73,9 @@
     }
     .leaf-anim-img {
         max-width: 54%;
+    }
+
+    .section1{
+        margin-bottom:0!important;
     }
 }
