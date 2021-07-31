@@ -7,7 +7,7 @@ function AboutSection2() {
       <ReactBootStrap.Row>
 
         <ReactBootStrap.Col xs={6} md={6}>
-          <div className="content-container section4-content-container">
+          <div className="content-container about-section2-content-container">
             <span class="title-text white">RIGHT FROM SOURCE</span>
             <span class="default-text white">Lorem ipsum dolor sit amet, consectetuer 
 adipiscing elit, sed diam nonummy nibh euismod 

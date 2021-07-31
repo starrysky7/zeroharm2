@@ -1,0 +1,11 @@
+.about-section4-content-container {
+    margin: 30% 0 0 80px;
+    width: 60%;
+}
+
+@media (max-width:576px) {
+    .about-section4-content-container {
+        margin: 40% 0 0 5%;
+        width: 320px;
+    }
+}

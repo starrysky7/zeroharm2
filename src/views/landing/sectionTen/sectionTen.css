@@ -1,5 +1,6 @@
 .section10{
     padding:40px 0 40px 80px;
+    overflow: hidden;
 }
 
 @media (max-width:576px){

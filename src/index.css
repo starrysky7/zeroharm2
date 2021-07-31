@@ -42,7 +42,7 @@
   border: 1px solid #000;
   letter-spacing: 1px;
   text-decoration: none;
-  width:fit-content;
+  width: fit-content;
 }
 
 .title-text {
@@ -79,7 +79,7 @@
   background-size: cover;
   overflow: hidden;
   position: relative;
-margin-bottom:5%}
+}
 
 input {
   display: block;
@@ -109,7 +109,7 @@ input {
 }
 
 @media (max-width: 1200px) {
-  .section{
-    min-height:100vh;
+  .section {
+    min-height: 100vh;
   }
 }

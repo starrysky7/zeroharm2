@@ -1,3 +1,9 @@
 .about-section1-image{
-    width:100%;
+    width:70%;
+}
+
+@media (max-width:576px){
+    .about-section1-image{
+        width:100%;
+    }
 }

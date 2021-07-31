@@ -3,10 +3,10 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function Footer() {
     return (
-        <div>
+        <div className="footer">
             <ReactBootStrap.Row>
 
-                <ReactBootStrap.Col xs={12} md={5} className="section14-left">
+                <ReactBootStrap.Col xs={12} md={5} className="footer-left">
                     <div className="content-container">
                         <span className="title-text white">CONTACT US</span>
                         <span className="default-text white">Zeroharm Sciences Private Limited<br />Unit B23, Phase II, Technocrats Industrial Estate,<br />Balanagar, Hyderabad - 500 037. India</span>

@@ -36,7 +36,7 @@ function SectionTwo(props) {
     if (!anim) return;
 
     if (Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0) >= 425)
-      anim.seek(anim.duration * (props.scrollValue * 0.01));
+      anim.seek(anim.duration * (props.scrollValue * 0.08));
     else
       anim.seek(anim.duration * (props.scrollValue * 0.08));
   }, [props.scrollValue, anim]);

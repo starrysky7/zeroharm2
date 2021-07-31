@@ -8,7 +8,7 @@ function AboutSection4() {
       <ReactBootStrap.Row>
 
 <ReactBootStrap.Col xs={12} md={6}>
-  <div className="content-container section8-content-container">
+  <div className="content-container about-section4-content-container">
     <span className="default-text grey">
     <b>How different is this from the
 conventional method?</b><br/><br/>

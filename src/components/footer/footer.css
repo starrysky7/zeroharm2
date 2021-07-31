@@ -1,9 +1,13 @@
-.section14-left{
+.footer{
+    overflow: hidden;
+}
+
+.footer-left{
     background:url(Untitled-2.png);
     background-size: cover;
 }
 
-.section14-left .content-container{
+.footer-left .content-container{
     padding:100px 0 100px 50px;
 }
 
