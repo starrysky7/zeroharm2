@@ -1,7 +1,10 @@
 .nav {
-    margin: 2% 0 0 5%;
+/*    margin: 2% 0 0 5%;*/
     position: fixed;
     z-index: 100;
+    background-color: white;
+    width: 100vw;
+    padding: 1% 1% 1% 1%;
 }
 
 .nav-logo-top {
@@ -23,6 +26,7 @@
 
 .nav-logo-container {
     display: inline-block;
+    margin-left: 3%;
 }
 
 .nav-items-container {
@@ -30,6 +34,7 @@
     vertical-align: top;
     position: relative;
     top: 14px;
+    margin-left: 3%;
 }
 
 .nav-item {
