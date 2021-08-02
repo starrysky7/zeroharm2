@@ -11,4 +11,8 @@
         width: 320px;
         margin: 170% 0 0 8%;
     }
+
+    .section4{
+        background-image: url(field.png);
+    }
 }
