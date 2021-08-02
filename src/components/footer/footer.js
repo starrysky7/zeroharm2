@@ -1,7 +1,37 @@
 import './footer.css';
 import * as ReactBootStrap from "react-bootstrap";
+import { useState } from 'react';
 
 function Footer() {
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
+
+    function onSubmit() {
+
+        window.emailjs.send(
+            'service_qnho4q5', 'template_sgayh4k',
+            {
+                subject: subject,
+                from_name: name,
+                from_email: email,
+                message: message,
+                reply_to: email
+            }
+        ).then(res => {
+            console.log('Email successfully sent!')
+            alert('message submitted')
+            setName('')
+            setEmail('')
+            setSubject('')
+            setMessage('')
+        })
+            // Handle errors here however you like, or use a React error boundary
+            .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
+
     return (
         <div className="footer">
             <ReactBootStrap.Row>
@@ -15,11 +45,11 @@ function Footer() {
 
                 <ReactBootStrap.Col xs={12} md={7} >
                     <div className="form-container">
-                        <input className="form-field" type="text" placeholder="Your Name(required)" />
-                        <input className="form-field" type="text" placeholder="Your Email(required)" />
-                        <input className="form-field" type="text" placeholder="Subject" />
-                        <input className="form-field" type="text" placeholder="Your Message" />
-                        <button className="default-button green">SUBMIT</button>
+                        <input className="form-field" type="text" placeholder="Your Name(required)" value={name} onChange={e => { e.preventDefault(); setName(e.target.value) }} />
+                        <input className="form-field" type="text" placeholder="Your Email(required)" value={email} onChange={e => { e.preventDefault(); setEmail(e.target.value) }} />
+                        <input className="form-field" type="text" placeholder="Subject" value={subject} onChange={e => { e.preventDefault(); setSubject(e.target.value) }} />
+                        <input className="form-field" type="text" placeholder="Your Message" value={message} onChange={e => { e.preventDefault(); setMessage(e.target.value) }} />
+                        <button className="default-button green" onClick={e => { e.preventDefault(); onSubmit() }}>SUBMIT</button>
                     </div>
                 </ReactBootStrap.Col>
 
@@ -29,4 +59,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer; 
