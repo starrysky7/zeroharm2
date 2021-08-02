@@ -6,9 +6,46 @@
     margin: 350px 0 0 80px;
 }
 
+.section6 .mobile{
+    display:none
+}
+
 @media (max-width:576px) {
     .section6-content-container {
         width: 320px;
-        margin: 200% 0 0 8%;
+        margin: 0% 0 0 8%;
+    }
+
+    .section6 {
+        background-image: none;
+    }
+
+    .section6 .title-text{
+        color:#005d2e;
+    }
+
+    .section6 .default-text{
+        color:#666;
+    }
+
+    .section6 .default-button{
+        color:#005d2e;
+        border-color: #005d2e !important;
+    }
+
+    .section6 .mobile{
+        display: block;
+    }
+
+    .section6 .desktop{
+        display: none;
+    }
+    
+    .section6-image{
+        width:750px;
+        object-fit: cover;
+        position: relative;
+        left:-300px;
+        margin-top: 20px;
     }
 }

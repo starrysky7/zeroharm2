@@ -9,10 +9,22 @@
     margin:35% 0 0 80px;
 }
 
+.section8 .mobile{
+    display:none;
+}
+
 @media (max-width:576px){
     .section8-content-container{
         margin:10% 0 10% 5%;
         width:320px;
+    }
+
+    .section8 .desktop{
+        display:none;
+    }
+
+    .section8 .mobile{
+        display:block;
     }
     
 }
