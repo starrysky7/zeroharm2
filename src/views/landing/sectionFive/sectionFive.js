@@ -8,7 +8,7 @@ function sectionFive() {
       <ReactBootStrap.Row>
 
         <ReactBootStrap.Col xs={12} md={6} >
-          <img className="globeimage" src="globe.gif" />
+          <img className="globeimage" src="GLOBE ANIMATION 3.gif" />
         </ReactBootStrap.Col>
       <ReactBootStrap.Col xs={0} md={1} >
     </ReactBootStrap.Col>
