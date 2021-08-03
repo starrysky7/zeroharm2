@@ -28,7 +28,7 @@
 
 @media (max-width:576px){
     .section2{
-        height:150vh;
+        height:110vh;
         background-image:url(dna-reverse.png);
         background-size:400vw auto;
         background-position-y: -70%;
@@ -41,7 +41,7 @@
     }
 
     .section2-content-container{
-        margin:80vh 0 0 20px;
+        margin:40vh 0 0 20px;
         width:320px
     }
 }
