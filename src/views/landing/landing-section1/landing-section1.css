@@ -1,7 +1,6 @@
 
 .leaf-anim-container {
-    position: absolute;
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 /* .leaf-static-img {
@@ -57,6 +56,10 @@
     margin-top: 10%;
 }
 
+.mobile{
+    display: none;
+}
+
 @media (max-width: 576px) {
     /* .leaf-anim-container {
         margin-top: 18%;
@@ -83,5 +86,12 @@
 
     .section1{
         margin-bottom:0!important;
+    }
+
+    .desktop{
+        display:none
+    }
+    .mobile{
+        display: block;
     }
 }
