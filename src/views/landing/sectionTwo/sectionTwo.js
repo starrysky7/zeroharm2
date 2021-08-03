@@ -24,7 +24,7 @@ function SectionTwo(props) {
       setAnim(
         anime({
           targets: '.section2',
-          'background-position-x': '50%',
+          'background-position-x': '35%',
           'background-position-y': '-70%',
           easing: 'linear',
           autoplay: false
