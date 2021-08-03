@@ -22,7 +22,7 @@ function sectionSix() {
           <div className="content-container section6-content-container">
             <span class="title-text white">OWNING TRACEABILITY</span>
             <span class="default-text white">With ownership of the entire valuechain<br />we document, record and identify the<br />product right through. From seed to<br />consumption, there is complete<br />traceability</span>
-            <a href="#" class="default-button white">KNOW MORE</a>
+            <span class="default-button white">KNOW MORE</span>
           </div>
         </ReactBootStrap.Col>
         <ReactBootStrap.Col xs={6} md={6}>
