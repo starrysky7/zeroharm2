@@ -341,7 +341,7 @@ function SectionSeven(props) {
     <div className="section section7" >
       <ReactBootStrap.Row className="desktop">
 
-        <ReactBootStrap.Col xs={12} md={7} className="flower-anim">
+        <ReactBootStrap.Col xs={12} md={8} className="flower-anim">
           <div>
             <img className="flower-image-1 show" src="/images/one petal_00001.png" />
             <img className="flower-image-2" src="/images/one petal_00002.png" />
@@ -381,7 +381,7 @@ function SectionSeven(props) {
           </div>
         </ReactBootStrap.Col>
 
-        <ReactBootStrap.Col xs={12} md={5}>
+        <ReactBootStrap.Col xs={12} md={4}>
           <div className="content-container section7-content-container">
             <span className="title-text green align-right">EXTRACT WITHOUT HARM.</span>
             <span className="default-text grey align-right">The naturally pure produce must be taken<br />forward with a pure, natural extraction<br />process. We have a unique and proprietary<br />aqueous extraction process. This allows the<br />high levels of purity to be maintained and<br />is designed to global standards</span>

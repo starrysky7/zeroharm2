@@ -4,10 +4,10 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function sectionEight() {
   return (
-    <div className="section section8" >
+    <div className="section section8" id="9">
       <ReactBootStrap.Row className="desktop">
 
-        <ReactBootStrap.Col xs={12} md={5}>
+        <ReactBootStrap.Col xs={12} md={4}>
           <div className="content-container section8-content-container">
             <span className="title-text green">IN TEST WE TRUST.</span>
             <span className="default-text grey">We are at the intersection of nature and efcacy.
@@ -22,7 +22,7 @@ function sectionEight() {
           </div>
         </ReactBootStrap.Col>
 
-        <ReactBootStrap.Col xs={12} md={7}>
+        <ReactBootStrap.Col xs={12} md={8}>
           <div >
             <img className="machineImage" src="in test we trust.png" />
           </div>

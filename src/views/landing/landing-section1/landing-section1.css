@@ -1,6 +1,12 @@
 
 .leaf-anim-container {
-    margin-left: 20%;
+    margin-left: 0%;
+    position: relative;
+    top:5%
+}
+
+.section1{
+    height:100vh;
 }
 
 /* .leaf-static-img {
@@ -37,7 +43,7 @@
 
 .landing-section1-text1 {
     display: block;
-    margin: 90% 0 0 80px;
+    margin: 120% 0 0 80px;
 }
 
 .landing-section1-text2 {
@@ -52,7 +58,7 @@
 
 .leaf-img{
     display: block;
-    width: 100%;
+    width: 110%;
     margin-top: 10%;
 }
 

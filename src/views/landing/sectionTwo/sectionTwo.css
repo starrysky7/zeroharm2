@@ -1,11 +1,10 @@
 
 .section2{
-    background-image:url(dna.png);
-    background-size:150vw auto;
-    background-position-y: 45%;
-    background-position-x: 45%;
+    background-image:url(dna.png), linear-gradient(-210deg, #ffffff,#aacaba, #6faa87);
+    background-size:230vw auto;
+    background-position-y: 80%;
+    background-position-x: 15%;
     background-repeat: no-repeat;
-    background-color: #aacaba;
 }
 
 .section2-content-container{
@@ -16,6 +15,8 @@
     line-height: 19px;
     font-size: 12px;
     font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 25px;
 }
 
 .section2-small-text{

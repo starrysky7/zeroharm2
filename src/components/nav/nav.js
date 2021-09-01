@@ -14,16 +14,14 @@ const Nav = () => {
                <span className="nav-logo-bottom">SCIENCES</span>
            </div>
            <div class="nav-items-container">
-               <a href="#" className="nav-item">Origins</a>
-               <a href="#" className="nav-item">Process</a>
-               <a href="#" className="nav-item">Products</a>
-               <a href="#" className="nav-item">Validation</a>
-               <a href="#" className="nav-item">Beliefs</a>
-               <a href="#" className="nav-item mobileHide">Contact Us</a>
+               <a href="#2" className="nav-item">Origins</a>
+               <a href="#" className="nav-item">Product</a>
+               <a href="#4" className="nav-item">Process</a>
+               <a href="#9" className="nav-item">Validation</a>
+               <a href="#3" className="nav-item">Genomics</a>
+               <a href="#13" className="nav-item mobileHide">Contact Us</a>
            </div>
-   </div>
-     
-
+   </div>     
  );
 };
 

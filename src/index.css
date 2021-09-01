@@ -1,21 +1,7 @@
-@font-face {
-  font-family: Analogue45Light;
-  src: url(/src/fonts/Analogue45Light.ttf);
-}
 
 @font-face {
   font-family: FuturaStd;
   src: url(/src/fonts/FuturaStd-Book.otf);
-}
-
-@font-face {
-  font-family: GARA;
-  src: url(/src/fonts/GARA.TTF);
-}
-
-@font-face {
-  font-family: MayekaLight;
-  src: url(/src/fonts/Mayeka_Light\ Demo.otf);
 }
 
 .green {
@@ -29,8 +15,8 @@
 }
 
 .grey {
-  color: #666;
-  border-color: #666;
+  color: #58595B;
+  border-color: #58595B;
 }
 
 .default-button {
@@ -38,24 +24,23 @@
   padding: 10px 15px;
   display: flex;
   font-family: 'FuturaStd', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   border: 1px solid #000;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
   text-decoration: none;
   width: fit-content;
 }
 
 .title-text {
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'FuturaStd', sans-serif;
-  letter-spacing: 5px;
   display: block;
 }
 
 .default-text {
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'FuturaStd', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
   display: block;
   margin: 20px 0 20px 0;
 }

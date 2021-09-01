@@ -6,10 +6,10 @@ function sectionNine() {
     <div className="section section9">
       <ReactBootStrap.Row>
 
-        <ReactBootStrap.Col xs={12} md={8}>
+        <ReactBootStrap.Col xs={12} md={7}>
         </ReactBootStrap.Col >
 
-        <ReactBootStrap.Col xs={12} md={4}>
+        <ReactBootStrap.Col xs={12} md={5}>
           <div className="content-container section9-content-container">
             <span class="title-text white align-right">NANO TO BE BIOAVAILABLE.</span>
             <span class="default-text white align-right">The next step in creating the formulation is no less.

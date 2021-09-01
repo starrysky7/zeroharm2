@@ -1,11 +1,12 @@
 .section3-image{
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
 .section3-content-container{
     padding:250px 80px 0 0;
 }
+
 
 @media (max-width:786px){
     .section3-image{

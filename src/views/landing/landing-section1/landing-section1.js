@@ -16,7 +16,7 @@ function LandingSection1() {
           <div className="leaf-anim-container">
             {/* <img className="leaf-static-img" src="leaf final.png" />
             <img className="leaf-anim-img" src="leaf final.png" /> */}
-            <img className="leaf-img" src="LEAFGIF2small.gif" />
+            <img className="leaf-img" src="Leaf.gif" />
           </div>
         </ReactBootStrap.Col>
 
