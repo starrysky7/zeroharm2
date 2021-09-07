@@ -7,7 +7,7 @@ function AboutSection1() {
       <ReactBootStrap.Row>
 
         <ReactBootStrap.Col sm={12} md={8} >
-          <img className="about-section1-image" src="/genomics DNA.png" />
+          <img className="about-section1-image" src="genomics DNA.png" />
         </ReactBootStrap.Col>
         
         <ReactBootStrap.Col sm={12} md={4}>
