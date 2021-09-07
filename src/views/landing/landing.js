@@ -42,8 +42,8 @@ function Landing() {
       <LandingSection7 scrollValue={scrollValue} />
       <LandingSection9 />
       <LandingSection8 />
-      <LandingSection10 />
-      <LandingSection11 />
+      {/* <LandingSection10 /> */}
+      {/* <LandingSection11 /> */}
       <LandingSection12 />
       <LandingSection13 />
     </div>

@@ -21,7 +21,8 @@
 
 .default-button {
   background-color: rgba(255, 255, 255, 0);
-  padding: 10px 15px;
+  padding: 16px;
+  margin:42px 0 42px 0;
   display: flex;
   font-family: 'FuturaStd', sans-serif;
   font-size: 18px;
@@ -29,6 +30,12 @@
   letter-spacing: 0.1em;
   text-decoration: none;
   width: fit-content;
+}
+
+.default-button:hover{
+  background-color: #00b307;
+  color:#005d2e;
+  border-color: #005d2e;
 }
 
 .title-text {

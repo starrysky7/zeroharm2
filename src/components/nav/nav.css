@@ -26,7 +26,8 @@
 
 .nav-logo-container {
     display: inline-block;
-    margin-left: 3%;
+    margin-left: 82px;
+    cursor: pointer;
 }
 
 .nav-items-container {
@@ -34,7 +35,6 @@
     vertical-align: top;
     position: relative;
     top: 14px;
-    margin-left: 3%;
 }
 
 .nav-item {
@@ -42,9 +42,20 @@
     font-family: 'FuturaStd', sans-serif;
     text-decoration: none;
     color: #666;
-    margin-left: 25px;
+    margin-left: 24px;
     font-size: 13px;
     letter-spacing: 0.1em;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #005d2e;
+    color:#666;
+}
+
+.nav-item:active{
+    border-bottom: 2px solid #005d2e;
+    color:#005d2e;
+    font-weight: bold;
 }
 
     .mobileHide{
@@ -52,7 +63,7 @@
 }
 
 .nav-item:first-of-type{
-    margin-left:50px;
+    margin-left:56px;
 }
 @media (max-width: 768px ) { 
     .nav-item {

@@ -9,6 +9,7 @@ import AboutSection4 from './views/about-section4/about-section4';
 import AboutSection5 from './views/about-section5/about-section5';
 import AboutSection6 from './views/about-section6/about-section6';
 import Footer from './components/footer/footer';
+import FooterEnd from './components/footer-end/footer-end';
 
 export const Routes = () => {
   return (
@@ -49,6 +50,7 @@ export const Routes = () => {
 
       </Switch>
       <Footer />
+      <FooterEnd />
     </div>
   );
 };

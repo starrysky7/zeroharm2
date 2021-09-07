@@ -1,0 +1,67 @@
+.footer-end{
+    height:300px;
+    background-color: #005d2e;
+}
+
+.footer-end-logo-top {
+    display: block;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.footer-end-logo-bottom {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: right;
+    color: #fff;
+    position: relative;
+    top:-10px
+}
+
+.footer-end-logo-container {
+    display: inline-block;
+    margin-left: 82px;
+    cursor: pointer;
+    margin-top: 51px;
+    text-align: left;
+}
+
+.footer-end-title{
+    font-family: "FuturaStd", sans-serif;
+    color:#fff;
+    margin: 60px 0 22px 0;
+    display: block;
+}
+
+.footer-end-sub-title{
+    font-family: "FuturaStd", sans-serif;
+    color:#fff;
+    margin: 0px 0 22px 0;
+    display: block;
+}
+
+.footer-end-item{
+    font-family: "FuturaStd", sans-serif;
+    color:#fff;
+    margin:0 0 15px 0;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-end-small-text{
+    font-family: "FuturaStd", sans-serif;
+    color:#fff;
+    font-size:11px;
+    display: block;
+}
+
+.terms-text{
+    margin-left:82px;
+}
+
+.footer-end-bottom{
+    margin-top:40px;
+}

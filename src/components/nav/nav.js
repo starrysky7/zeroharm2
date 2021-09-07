@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Nav = () => {
  return (
      <div className="nav">
-       <div className="nav-logo-container">
+       <div className="nav-logo-container" onClick={e=>{e.preventDefault();window.location.href="/"}}>
                <span className="nav-logo-top">ZEROHARM</span>
                <span className="nav-logo-bottom">SCIENCES</span>
            </div>
