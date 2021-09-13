@@ -1,6 +1,9 @@
+
 .footer-end{
+    width:100%;
     height:300px;
     background-color: #005d2e;
+    box-sizing:border-box;
 }
 
 .footer-end-logo-top {
@@ -26,6 +29,7 @@
     cursor: pointer;
     margin-top: 51px;
     text-align: left;
+    box-sizing:border-box;
 }
 
 .footer-end-title{
@@ -40,6 +44,7 @@
     color:#fff;
     margin: 0px 0 22px 0;
     display: block;
+    box-sizing:border-box;
 }
 
 .footer-end-item{
@@ -49,6 +54,7 @@
     display: block;
     text-decoration: none;
     font-size: 14px;
+    box-sizing:border-box;
 }
 
 .footer-end-small-text{
@@ -56,12 +62,16 @@
     color:#fff;
     font-size:11px;
     display: block;
+    box-sizing:border-box;
 }
 
 .terms-text{
     margin-left:82px;
+    box-sizing:border-box;
 }
 
 .footer-end-bottom{
+    width:100%;
     margin-top:40px;
+    box-sizing:border-box;
 }

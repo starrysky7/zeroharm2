@@ -9,6 +9,13 @@
   border-color: #005d2e !important;
 }
 
+.green-bg{
+  background-color:#005d2e;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 .white {
   color: #fff;
   border-color: #fff !important;
@@ -38,8 +45,19 @@
   border-color: #005d2e;
 }
 
+.default-styled-text{
+  font-family: 'FuturaStd', sans-serif;
+  text-decoration:none;
+}
+
 .title-text {
   font-size: 60px;
+  font-family: 'FuturaStd', sans-serif;
+  display: block;
+}
+
+.sub-title-text {
+  font-size: 30px;
   font-family: 'FuturaStd', sans-serif;
   display: block;
 }
@@ -56,8 +74,18 @@
   text-align: right;
 }
 
+.align-center {
+  text-align: center!important;
+}
+
 .float-right {
   float: right;
+}
+
+
+
+.full-width{
+  width:100%!important;
 }
 
 .content-container {
@@ -83,6 +111,7 @@ input {
   outline: none;
 }
 
+
 @media (max-width: 768px) {
   .default-text {
     font-size: 12px;
@@ -92,6 +121,7 @@ input {
     font-size: 30px;
     text-align: left;
   }
+
   .mobileHide {
     display: none;
   }

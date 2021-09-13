@@ -10,6 +10,14 @@ import AboutSection5 from './views/about-section5/about-section5';
 import AboutSection6 from './views/about-section6/about-section6';
 import Footer from './components/footer/footer';
 import FooterEnd from './components/footer-end/footer-end';
+import PatentsCertificatesPage from './views/patents-certificates/patents-certificates';
+import FAQPage from './views/faq-page/faq-page';
+import TermsAndConditionsPage from './views/terms-and-conditions/terms-and-conditions';
+import PartnersPage from './views/partners-page/partners-page';
+import FeedbackPage from './views/feedback-page/feedback-page';
+import BlogPage from './views/blog/blog';
+import SpecialityProductPage from './views/speciality-products/speciality-product-page';
+import Ncm100 from './views/ncm-100/ncm-100';
 
 export const Routes = () => {
   return (
@@ -48,9 +56,41 @@ export const Routes = () => {
           <AboutSection4 />
         </Route>
 
+        <Route exact path="/patents-and-certificates">
+          <PatentsCertificatesPage/>
+        </Route>
+
+        <Route exact path="/faq">
+          <FAQPage/>
+        </Route>
+
+        <Route exact path="/terms-and-conditions">
+          <TermsAndConditionsPage/>
+        </Route>
+
+        <Route exact path="/retail-partners">
+          <PartnersPage/>
+        </Route>
+
+        <Route exact path="/feedback">
+          <FeedbackPage/>
+        </Route>
+
+        <Route exact path="/blog">
+          <BlogPage/>
+        </Route>
+
+        <Route exact path="/speciality-ingredients">
+          <SpecialityProductPage/>
+        </Route>
+
+        <Route exact path="/ncm-100">
+          <Ncm100/>
+        </Route>
+
       </Switch>
-      <Footer />
-      <FooterEnd />
+      {/* <Footer />
+      <FooterEnd /> */}
     </div>
   );
 };

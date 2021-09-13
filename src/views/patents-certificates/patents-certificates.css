@@ -1,0 +1,76 @@
+.cert-section{
+    height:110vh;
+}
+
+.patents-certificates-container{
+    width:90%;
+    background-color:#fff;
+    box-sizing:border-box;
+    padding:40px;
+}
+
+.pat-cert-heading{
+    display:block;
+    text-align:center;
+}
+
+.pat-cert-line{
+    border:1px solid #005d2e;
+    width:100%;
+}
+
+.certif-img{
+    height:100px;
+    width:100px;
+}
+
+@media only screen and (min-width:320px){
+    .cert-section{
+        height:200vh;
+    }
+
+    .certif-img{
+        height:50px;
+        width:50px;
+    }  
+}
+
+@media only screen and (min-width:375px){
+    .cert-section{
+        height:200vh;
+    }
+
+    .certif-img{
+        height:80px;
+        width:80px;
+    }  
+}
+
+@media only screen and (min-width:768px){
+    .cert-section{
+        height:120vh;
+    }
+
+    .certif-img{
+        height:80px;
+        width:80px;
+    }  
+}
+
+@media only screen and (min-width:1024px){
+    .cert-section{
+        height:130vh;
+    }
+
+    .certif-img{
+        height:100px;
+        width:100px;
+    }  
+}
+
+
+@media only screen and (min-width:1200px){
+    .cert-section{
+        height:120vh;
+    }
+}

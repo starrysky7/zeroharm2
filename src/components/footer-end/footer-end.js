@@ -7,26 +7,25 @@ function FooterEnd() {
     return (
         <div className="footer-end">
             <ReactBootStrap.Row>
-
-                <ReactBootStrap.Col xs={12} md={4}>
+                <ReactBootStrap.Col xs={12} md={4} lg={3}>
                     <div className="footer-end-logo-container" onClick={e => { e.preventDefault(); window.location.href = "/" }}>
                         <span className="footer-end-logo-top">ZEROHARM</span>
                         <span className="footer-end-logo-bottom">SCIENCES</span>
                     </div>
                 </ReactBootStrap.Col>
 
-                <ReactBootStrap.Col xs={12} md={2} >
+                <ReactBootStrap.Col xs={12} md={2} lg={2}>
                     <span className="footer-end-title">Company</span>
                     <a href="#" className="footer-end-item">Blog</a>
                     <a href="#" className="footer-end-item">Patents &amp; Certificates</a>
                 </ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={12} md={2} >
+                <ReactBootStrap.Col xs={12} md={2} lg={2}>
                     <span className="footer-end-title">Customer Care</span>
                     <a href="#" className="footer-end-item">FAQs</a>
                     <a href="#" className="footer-end-item">Feedback</a>
                     <a href="#" className="footer-end-item">Terms &amp; Conditions</a>
                 </ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={12} md={2} >
+                <ReactBootStrap.Col xs={12} md={2} lg={2}>
                     <span className="footer-end-title">Retail Partners</span>
                     <span className="footer-end-sub-title">Follow Us</span>
                 </ReactBootStrap.Col>

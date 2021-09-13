@@ -1,3 +1,4 @@
+
 .nav {
 /*    margin: 2% 0 0 5%;*/
     position: fixed;
@@ -5,6 +6,8 @@
     background-color: white;
     width: 100vw;
     padding: 1% 1% 1% 1%;
+    box-sizing:border-box;
+    z-index:60;
 }
 
 .nav-logo-top {
@@ -65,6 +68,89 @@
 .nav-item:first-of-type{
     margin-left:56px;
 }
+
+.nav-mega-menu{
+    display:none;
+    height:fit-content;
+    width:100%;
+    background-color:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:50;
+    overflow:hidden;
+}
+
+.mega-menu-margin{
+    margin-top:15vh;
+    padding-left:40px;
+    padding-right:40px;
+    box-sizing:border-box;
+}
+
+.nav-mega-menu-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:70px;
+    width:100%;
+    background-color:#005d2e;    
+}
+
+.mega-menu-btn-txt{
+    color:#fff;
+    text-decoration:none;
+    font-family: 'FuturaStd', sans-serif;
+    display: block;
+    font-size:15px;
+}
+
+.nav-menu-title{
+    color: #005d2e;
+    font-family: 'FuturaStd', sans-serif;
+    font-size:40px;
+    display:block;
+}
+
+@media only screen and (min-width:375px){
+    .nav-menu-title{
+        font-size:20px;
+    }
+
+    .mega-menu-margin{
+        margin-top:20vh;
+        padding-left:20px;
+        padding-right:20px;
+    }
+  
+}
+
+@media only screen and (min-width:768px){
+    .nav-menu-title{
+        font-size:30px;
+    }
+
+    
+    .mega-menu-margin{
+        margin-top:15vh;
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+    .nav-menu-title{
+        font-size:40px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .nav-menu-title{
+        font-size:60px;
+    }
+}
+
 @media (max-width: 768px ) { 
     .nav-item {
         font-size: 10px;
@@ -78,5 +164,4 @@
     .mobileHide{
     display: none;
 }
-
 }

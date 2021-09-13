@@ -9,6 +9,7 @@
 
 .footer-left .content-container{
     padding:100px 0 100px 50px;
+    box-sizing:border-box;
 }
 
 .form-container{
