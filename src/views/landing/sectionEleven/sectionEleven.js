@@ -5,96 +5,96 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function SectionEleven() {
 
-    
+
     return (
         <div className="section">
- 
-        <Carousel>
-  <Carousel.Item>
-        <div className="section11-carousel-item">
-   <ReactBootStrap.Row>
-        <ReactBootStrap.Col xs={12} md={6}>
-                        <div >
-                            <img className="bottleImage" src="bottles/bottle04.png" />
-                        </div>
-                    </ReactBootStrap.Col>
+
+            <Carousel>
+                <Carousel.Item>
+                    <div className="section11-carousel-item">
+                        <ReactBootStrap.Row>
+                            <ReactBootStrap.Col xs={12} md={6}>
+                                <div >
+                                    <img className="bottleImage" src="bottles/bottle04.png" />
+                                </div>
+                            </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={6} className="solid-bg-purple">
-                        <div className="content-container">
-                            <span className="default-text white">Speciality formulations address life threatening
-                            conditions like Cancer. The holistic approach,
-                        focus and depth is reflected even in the name. <br/><b>Holo Oncolis</b></span>
-                        </div>
-                    </ReactBootStrap.Col>
+                                <div className="content-container">
+                                    <span className="default-text white">Speciality formulations address life threatening
+                                    conditions like Cancer. The holistic approach,
+                        focus and depth is reflected even in the name. <br /><b>Holo Oncolis</b></span>
+                                </div>
+                            </ReactBootStrap.Col>
 
-                </ReactBootStrap.Row>
-        </div>
-   
-  </Carousel.Item>
-  <Carousel.Item>
-   <div className="section11-carousel-item">
-   <ReactBootStrap.Row>
-        <ReactBootStrap.Col xs={12} md={6}>
-                        <div >
-                            <img className="bottleImage bottle-image-small" src="bottles/bottle01.png" />
-                        </div>
-                    </ReactBootStrap.Col>
+                        </ReactBootStrap.Row>
+                    </div>
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="section11-carousel-item">
+                        <ReactBootStrap.Row>
+                            <ReactBootStrap.Col xs={12} md={6}>
+                                <div >
+                                    <img className="bottleImage bottle-image-small" src="bottles/bottle01.png" />
+                                </div>
+                            </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={6} className="solid-bg-purple">
-                                               <div className="content-container">
-                            <span className="default-text white"><b>Holo Oncolis Sublingual range</b><br />for higher efficacy.</span>
-                        </div>
-                    </ReactBootStrap.Col>
+                                <div className="content-container">
+                                    <span className="default-text white"><b>Holo Oncolis Sublingual range</b><br />for higher efficacy.</span>
+                                </div>
+                            </ReactBootStrap.Col>
 
-                </ReactBootStrap.Row>
-        </div>
-  </Carousel.Item>
-  <Carousel.Item>
-    <div className="section11-carousel-item">
-                <ReactBootStrap.Row>
+                        </ReactBootStrap.Row>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="section11-carousel-item">
+                        <ReactBootStrap.Row>
 
-                    <ReactBootStrap.Col xs={12} md={6}>
-                        <div >
-                            <img className="bottleImage" src="bottles/bottle03.png" />
-                        </div>
-                    </ReactBootStrap.Col>
+                            <ReactBootStrap.Col xs={12} md={6}>
+                                <div >
+                                    <img className="bottleImage" src="bottles/bottle03.png" />
+                                </div>
+                            </ReactBootStrap.Col>
 
-                    <ReactBootStrap.Col xs={12} md={6} className="solid-bg-blue">
-                        <div className="content-container">
-                            <span className="default-text white">In the generic range, the promise is
-                            anything but generic!
-                            Each offering amongst the highest purity,
+                            <ReactBootStrap.Col xs={12} md={6} className="solid-bg-blue">
+                                <div className="content-container">
+                                    <span className="default-text white">In the generic range, the promise is
+                                    anything but generic!
+                                    Each offering amongst the highest purity,
                             100% bio-availability, precision and higher efficacy.<br /><br />
-                                <b>Holistic Curcumin</b></span>
-                        </div>
-                    </ReactBootStrap.Col>
+                                        <b>Holistic Curcumin</b></span>
+                                </div>
+                            </ReactBootStrap.Col>
 
-                </ReactBootStrap.Row>
-            </div>
-  </Carousel.Item>
-          <Carousel.Item>
-        <div className="section11-carousel-item">
-                <ReactBootStrap.Row>
+                        </ReactBootStrap.Row>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="section11-carousel-item">
+                        <ReactBootStrap.Row>
 
-                    <ReactBootStrap.Col xs={12} md={6}>
-                        <div >
-                            <img className="bottleImage" src="bottles/bottle02.png" />
-                        </div>
-                    </ReactBootStrap.Col>
+                            <ReactBootStrap.Col xs={12} md={6}>
+                                <div >
+                                    <img className="bottleImage" src="bottles/bottle02.png" />
+                                </div>
+                            </ReactBootStrap.Col>
 
-                    <ReactBootStrap.Col xs={12} md={6} className="solid-bg-blue">
-                        <div className="content-container">
-                            <span className="default-text white">In the generic range, the promise is
-                            anything but generic!
-                            Each offering amongst the highest purity,
+                            <ReactBootStrap.Col xs={12} md={6} className="solid-bg-blue">
+                                <div className="content-container">
+                                    <span className="default-text white">In the generic range, the promise is
+                                    anything but generic!
+                                    Each offering amongst the highest purity,
                             100% bio-availability, precision and higher efficacy.<br /><br />
-                                <b>Holistic Ashwagandha</b></span>
-                        </div>
-                    </ReactBootStrap.Col>
+                                        <b>Holistic Ashwagandha</b></span>
+                                </div>
+                            </ReactBootStrap.Col>
 
-                </ReactBootStrap.Row>
-            </div>
-  </Carousel.Item>
-</Carousel>
-           
+                        </ReactBootStrap.Row>
+                    </div>
+                </Carousel.Item>
+            </Carousel>
+
         </div>
     );
 }

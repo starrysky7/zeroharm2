@@ -3,8 +3,8 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function FeedbackPage() {
     return (
-        <div className="section green-bg feedback-section" >
-            <div class="feedback-container">
+        <div className="section green-bg" >
+            <div class="popup-section white-bg">
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={12} md={12}>
                         <div className="content-container">

@@ -8,26 +8,37 @@
 }
 
 .footer-left .content-container{
-    padding:100px 0 100px 50px;
+    padding:100px 0 100px 82px;
     box-sizing:border-box;
 }
 
+@media (max-width:768px){
+    .footer-left .content-container{
+        padding-left: 20px;
+    }
+}
+
 .form-container{
-    margin:5% 5% 0 5%;
+    margin:32px 5% 0 5%;
 }
 
 .form-field{
-    margin-bottom: 20px;
+    margin-bottom: 42px;
 }
 
 .form-field:last-of-type{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 72px;
+    margin-bottom: 42px;
 }
 
 .form-field::placeholder{
     font-size: 14px;
     letter-spacing: 1px;
+    padding-bottom: 12px;
+}
+
+.form-container>.default-button{
+    margin-bottom: 32px;
 }
 @media(max-width:568px){
     .form-container{

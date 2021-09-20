@@ -1,13 +1,7 @@
-
 .nav {
-/*    margin: 2% 0 0 5%;*/
+    /*    margin: 2% 0 0 5%;*/
     position: fixed;
     z-index: 100;
-    background-color: white;
-    width: 100vw;
-    padding: 1% 1% 1% 1%;
-    box-sizing:border-box;
-    z-index:60;
 }
 
 .nav-logo-top {
@@ -24,7 +18,7 @@
     text-align: right;
     color: #005d2e;
     position: relative;
-    top:-10px
+    top: -10px
 }
 
 .nav-logo-container {
@@ -33,11 +27,39 @@
     cursor: pointer;
 }
 
+@media (max-width:768px){
+    .nav-logo-container{
+        margin-left: 20px;
+    }
+}
+
+.navbar-light .navbar-toggler{
+    border:none;
+    outline: none;
+}
+
+.navbar-light .navbar-toggler:active{
+    border:none;
+    outline: none;
+}
+
 .nav-items-container {
     display: inline-block;
     vertical-align: top;
     position: relative;
     top: 14px;
+}
+
+.nav-items-right {
+    position: absolute;
+    right: 82px;
+    top: 30px;
+}
+
+@media (max-width:768px){
+    .nav-items-right{
+        right:60px;
+    }
 }
 
 .nav-item {
@@ -50,118 +72,87 @@
     letter-spacing: 0.1em;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     border-bottom: 2px solid #005d2e;
-    color:#666;
+    color: #666;
 }
 
-.nav-item:active{
+.nav-item:active {
     border-bottom: 2px solid #005d2e;
-    color:#005d2e;
+    color: #005d2e;
     font-weight: bold;
 }
 
-    .mobileHide{
+.mobileHide {
     display: inline-block;
 }
 
-.nav-item:first-of-type{
-    margin-left:56px;
+.nav-item:first-of-type {
+    margin-left: 56px;
 }
 
-.nav-mega-menu{
-    display:none;
-    height:fit-content;
-    width:100%;
-    background-color:#fff;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:50;
-    overflow:hidden;
+.nav-mega-menu {
+    display: none;
+    height: fit-content;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    overflow: hidden;
 }
 
-.mega-menu-margin{
-    margin-top:15vh;
-    padding-left:40px;
-    padding-right:40px;
-    box-sizing:border-box;
+.mega-menu-row1 {
+    padding: 120px 82px 38px 82px;
+    box-sizing: border-box;
 }
 
-.nav-mega-menu-btn{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:70px;
-    width:100%;
-    background-color:#005d2e;    
+.mega-menu-row2 {
+    padding: 0 82px 38px 82px;
+    box-sizing: border-box;
 }
 
-.mega-menu-btn-txt{
-    color:#fff;
-    text-decoration:none;
+.nav-mega-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: #005d2e;
+}
+
+.mega-menu-btn-txt {
+    color: #fff;
+    text-decoration: none;
     font-family: 'FuturaStd', sans-serif;
     display: block;
-    font-size:15px;
+    font-size: 15px;
 }
 
-.nav-menu-title{
-    color: #005d2e;
-    font-family: 'FuturaStd', sans-serif;
-    font-size:40px;
-    display:block;
-}
-
-@media only screen and (min-width:375px){
-    .nav-menu-title{
-        font-size:20px;
+@media only screen and (min-width:375px) {
+    .nav-menu-title {
+        font-size: 20px;
     }
-
-    .mega-menu-margin{
-        margin-top:20vh;
-        padding-left:20px;
-        padding-right:20px;
-    }
-  
-}
-
-@media only screen and (min-width:768px){
-    .nav-menu-title{
-        font-size:30px;
-    }
-
-    
-    .mega-menu-margin{
-        margin-top:15vh;
-        padding-left:40px;
-        padding-right:40px;
-    }
-
-}
-
-@media only screen and (min-width:1024px){
-    .nav-menu-title{
-        font-size:40px;
+    .mega-menu-margin {
+        margin-top: 20vh;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
-@media only screen and (min-width:1200px){
-    .nav-menu-title{
-        font-size:60px;
-    }
-}
 
-@media (max-width: 768px ) { 
+@media (max-width: 768px) {
     .nav-item {
         font-size: 10px;
     }
-    .nav-item:first-of-type{
-    margin-left:2px;
-}
+    .nav-item:first-of-type {
+        margin-left: 23px;
+    }
     .nav-items-container {
         top: 0px;
     }
-    .mobileHide{
-    display: none;
-}
+    .mobileHide {
+        display: none;
+    }
 }

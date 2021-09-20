@@ -21,12 +21,12 @@ delenit augue duis dolore te feugait nullaconsequat</span>
             <button class="default-button green">KNOW MORE</button>
           </div>
         </ReactBootStrap.Col>
-
         <ReactBootStrap.Col xs={12} md={6} >
           <div >
             <img className="about-section6-image" src="in test we trust02.png" />
           </div>
         </ReactBootStrap.Col>
+
 
       </ReactBootStrap.Row>
 

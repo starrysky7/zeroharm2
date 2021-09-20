@@ -3,8 +3,8 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function PartnersPage() {
     return (
-        <div className="section green-bg partners-section" >
-            <div class="partners-container">
+        <div className="section green-bg" >
+            <div className="popup-section white-bg">
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={12} md={12}>
                         <div className="content-container">

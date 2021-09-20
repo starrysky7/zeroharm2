@@ -18,6 +18,7 @@ import FeedbackPage from './views/feedback-page/feedback-page';
 import BlogPage from './views/blog/blog';
 import SpecialityProductPage from './views/speciality-products/speciality-product-page';
 import Ncm100 from './views/ncm-100/ncm-100';
+import StickyChat from './components/sticky-chat/sticky-chat';
 
 export const Routes = () => {
   return (
@@ -89,8 +90,9 @@ export const Routes = () => {
         </Route>
 
       </Switch>
-      {/* <Footer />
-      <FooterEnd /> */}
+       <Footer />
+      <FooterEnd />
+      <StickyChat />
     </div>
   );
 };

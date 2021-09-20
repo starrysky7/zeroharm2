@@ -1,9 +1,10 @@
 
 .footer-end{
     width:100%;
-    height:300px;
+    min-height:300px;
     background-color: #005d2e;
     box-sizing:border-box;
+    overflow: hidden;
 }
 
 .footer-end-logo-top {
@@ -32,6 +33,12 @@
     box-sizing:border-box;
 }
 
+@media (max-width:768px){
+    .footer-end-logo-container{
+        margin-left: 20px;
+    }
+}
+
 .footer-end-title{
     font-family: "FuturaStd", sans-serif;
     color:#fff;
@@ -42,7 +49,7 @@
 .footer-end-sub-title{
     font-family: "FuturaStd", sans-serif;
     color:#fff;
-    margin: 0px 0 22px 0;
+    margin: 0px 0 10px 0;
     display: block;
     box-sizing:border-box;
 }
@@ -70,8 +77,37 @@
     box-sizing:border-box;
 }
 
+.copyright-text{
+    margin-left:10px;
+}
+
+@media (max-width:768px){
+    .terms-text{
+        margin-left: 20px;
+    }
+
+    .copyright-text{
+        margin-left: 20px;
+        padding-bottom: 42px;
+    }
+}
+
 .footer-end-bottom{
     width:100%;
     margin-top:40px;
     box-sizing:border-box;
+}
+
+.social-links-item{
+    margin-left:15px;
+}
+
+.social-links-item:first-of-type{
+    margin-left:0;
+}
+
+@media (max-width:768px){
+    .footer-end-group{
+        padding-left:30px;
+    }
 }

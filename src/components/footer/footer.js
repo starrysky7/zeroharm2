@@ -40,6 +40,11 @@ function Footer() {
                     <div className="content-container">
                         <span className="title-text white">CONTACT US</span>
                         <span className="default-text white">Zeroharm Sciences Private Limited<br />Unit B23, Phase II, Technocrats Industrial Estate,<br />Balanagar, Hyderabad - 500 037. India</span>
+                        <div className="social-links">
+                            <a href="#" className="social-links-item"><img src="/icons/facebook-icon.png" /></a>
+                            <a href="#" className="social-links-item"><img src="/icons/instagram-icon.png" /></a>
+                            <a href="#" className="social-links-item"><img src="/icons/linkedin-icon.png" /></a>
+                        </div>
                     </div>
                 </ReactBootStrap.Col>
 
@@ -59,4 +64,4 @@ function Footer() {
     );
 }
 
-export default Footer; 
+export default Footer;

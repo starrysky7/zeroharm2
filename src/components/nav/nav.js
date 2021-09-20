@@ -9,71 +9,77 @@ import * as ReactBootStrap from "react-bootstrap";
 
 const Nav = () => {
 
-  function opnMegaNavSplIng(){
-    document.getElementById("mega-menu-spc-ing").style.display="block";
-  }
+        function opnMegaNavSplIng() {
+                document.getElementById("mega-menu-spc-ing").style.display = "block";
+        }
 
-  function hidMegaNavSplIng(){
-    document.getElementById("mega-menu-spc-ing").style.display="none";
-  }
+        function hidMegaNavSplIng() {
+                document.getElementById("mega-menu-spc-ing").style.display = "none";
+        }
 
- return (
-   <>
-     <div className="nav">
-       <div className="nav-logo-container" onClick={e=>{e.preventDefault();window.location.href="/"}}>
-               <span className="nav-logo-top">ZEROHARM</span>
-               <span className="nav-logo-bottom">SCIENCES</span>
-           </div>
-           <div class="nav-items-container">
-               <a href="#2" className="nav-item">Origins</a>
-               <a href="#" className="nav-item" onMouseEnter={opnMegaNavSplIng}>Product</a>
-               <a href="#4" className="nav-item">Process</a>
-               <a href="#9" className="nav-item">Validation</a>
-               <a href="#3" className="nav-item">Genomics</a>
-               <a href="#13" className="nav-item mobileHide">Contact Us</a>
-           </div>
-   </div> 
+        return (
+                <>
 
-    <div className="nav-mega-menu" id="mega-menu-spc-ing" onMouseEnter={opnMegaNavSplIng}>
-     <div className="mega-menu-margin">
-      <ReactBootStrap.Row >
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                            <span className="nav-menu-title green">SPECIALITY INGREDIENTS</span>
-                            <a href="" className="grey align-left default-styled-text">NCM 100</a><br/>
-                            <a href=""className="grey align-left default-styled-text">HCM 100</a><br/>
-                            <a href="" className="grey align-left default-styled-text">NAG 100</a><br/>
-                            <a href="" className="grey align-left default-styled-text">HAG 100</a>
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                            <span className="nav-menu-title green">STANDARD INGREDIENTS</span>
-                            <a href="" className="grey align-left default-styled-text">View all products</a><br/>
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                            <span className="nav-menu-title green"></span>
-                    </ReactBootStrap.Col>
-        </ReactBootStrap.Row>
-        <ReactBootStrap.Row >
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                            <span className="nav-menu-title green">CUSTOMIZED INGREDIENTS</span>
-                            <a href="" className="grey align-left default-styled-text">View all products</a><br/>
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                            <span className="nav-menu-title green">CUSTOMIZED APIs</span>
-                            <a href="" className="grey align-left default-styled-text">View all products</a><br/>
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={12} md={4} lg={4}>
-                    <span className="nav-menu-title green">SPECIALITY APIs</span>
-                            <a href="" className="grey align-left default-styled-text">View all products</a><br/>
-                    </ReactBootStrap.Col>
-        </ReactBootStrap.Row>
-        <br/>
-     </div>
-     <div className="nav-mega-menu-btn">
-     <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a>
-     </div>
-   </div>
-   </>    
- );
+                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="nav">
+                                <ReactBootStrap.Navbar.Brand href="#home">
+                                        <div className="nav-logo-container" onClick={e => { e.preventDefault(); window.location.href = "/" }}>
+                                                <span className="nav-logo-top">ZEROHARM</span>
+                                                <span className="nav-logo-bottom">SCIENCES</span>
+                                        </div>
+                                </ReactBootStrap.Navbar.Brand>
+                                <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                                <div className="nav-items-right">
+                                        <span className="search-button"><img src="/icons/search-icon.png" /></span>
+                                </div>
+                                <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+                                        <ReactBootStrap.Nav className="mr-auto">
+                                                <ReactBootStrap.Nav.Link href="#2" className="nav-item">Origins</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#" className="nav-item">Product</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#4" className="nav-item">Process</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#9" className="nav-item">Validation</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#3" className="nav-item">Genomics</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#13" className="nav-item">Contact Us</ReactBootStrap.Nav.Link>
+                                        </ReactBootStrap.Nav>                                       
+                                </ReactBootStrap.Navbar.Collapse>
+                        </ReactBootStrap.Navbar>
+
+                        <div className="nav-mega-menu" id="mega-menu-spc-ing" onMouseEnter={opnMegaNavSplIng}>
+                                <ReactBootStrap.Row className="mega-menu-row1" >
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <a href="/speciality-ingredients" className="title-text green">SPECIALITY <br />INGREDIENTS</a>
+                                                <a href="" className="grey align-left default-styled-text">NCM 100</a><br />
+                                                <a href="" className="grey align-left default-styled-text">HCM 100</a><br />
+                                                <a href="" className="grey align-left default-styled-text">NAG 100</a><br />
+                                                <a href="" className="grey align-left default-styled-text">HAG 100</a>
+                                        </ReactBootStrap.Col>
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <span className="title-text green">STANDARD <br />INGREDIENTS</span>
+                                                <a href="" className="grey align-left default-styled-text">View all products</a><br />
+                                        </ReactBootStrap.Col>
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <span className="title-text green"></span>
+                                        </ReactBootStrap.Col>
+                                </ReactBootStrap.Row>
+                                <ReactBootStrap.Row className="mega-menu-row2">
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <span className="title-text green">CUSTOMIZED <br />INGREDIENTS</span>
+                                                <a href="" className="grey align-left default-styled-text">View all products</a><br />
+                                        </ReactBootStrap.Col>
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <span className="title-text green">CUSTOMIZED <br /> APIs</span>
+                                                <a href="" className="grey align-left default-styled-text">View all products</a><br />
+                                        </ReactBootStrap.Col>
+                                        <ReactBootStrap.Col xs={12} md={4} lg={4}>
+                                                <span className="title-text green">SPECIALITY <br />APIs</span>
+                                                <a href="" className="grey align-left default-styled-text">View all products</a><br />
+                                        </ReactBootStrap.Col>
+                                </ReactBootStrap.Row>
+                                <div className="nav-mega-menu-btn">
+                                        <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a>
+                                </div>
+                        </div>
+                </>
+        );
 };
 
 export default Nav;

@@ -44,7 +44,7 @@ function Landing() {
       <LandingSection8 />
       {/* <LandingSection10 /> */}
       {/* <LandingSection11 /> */}
-      <LandingSection12 />
+      {/* <LandingSection12 /> */}
       <LandingSection13 />
     </div>
   );
