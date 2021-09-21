@@ -35,6 +35,34 @@
     align-items:center;
 }
 
+.ncm-know-more-image{
+    width:80%;
+    margin-top: 58px;
+}
+
+.ncm-100-know-more-icon{
+    width:50px;
+    display: inline-block;
+}
+
+.ncm-100-know-more-icon-text{
+    display: inline-block;
+    margin-left:10px;
+}
+
+
+.ncm-know-more-content{
+    margin-top:10px;
+    padding:42px;
+}
+
+@media only screen and (min-width:768px){
+    .ncm-know-more-content{
+        margin-top:50px;
+        padding:42px;
+    }
+}
+
 @media only screen and (min-width:768px){
     .product-details-text{
         margin-top:-20px;

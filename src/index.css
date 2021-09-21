@@ -58,6 +58,10 @@
   letter-spacing: 0.1em;
 }
 
+.bottom-spacing-30{
+  margin-bottom:30px;
+}
+
 @media (max-width:768px){
   .default-styled-text {
     font-size: 12px;
@@ -163,12 +167,19 @@
 .margin-left-20{
   margin-left:20px;
 }
+
 .margin-right{
   margin-right: 82px;
 }
 
 .margin-auto{
   margin:0 auto 0 auto;
+}
+
+.flex-center{
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
 }
 
 @media (max-width:768px) {
