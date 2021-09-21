@@ -5,7 +5,7 @@ import ProductNav from '../../components/product-nav/product-nav';
 function Ncm100() {
     return (
 
-        <div className="section" >
+        <div className="section fit-content" >
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col xs={12} md={3} lg={3} >
                     <img className="ncm-100-img" src="/assets/Group 157.png" />

@@ -64,6 +64,16 @@
   }
 }
 
+.responsive-text{
+  font-size:16px;
+}
+
+@media (max-width:768px){
+  .responsive-text{
+    font-size: 12px;
+  }
+}
+
 .title-text {
   font-size: 60px;
   font-family: 'FuturaStd', sans-serif;
@@ -76,6 +86,11 @@
 .heading-20{
   font-size:20px !important;
 }
+
+.fit-content{
+   min-height:fit-content!important;
+}
+
 @media (max-width:768px){
   .title-text{
     line-height: 35px;

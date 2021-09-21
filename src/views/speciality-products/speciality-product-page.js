@@ -10,43 +10,45 @@ function SpecialityProductPage() {
                     <img className="speciality-prod-sect-1-img" src="/assets/Group 172.png" />
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={12} md={6}>
-                    <span className="title-text green align-right">SPECIALITY <br />INGREDIENTS.</span>
+                    <span className="title-text green align-right desktop">SPECIALITY <br />INGREDIENTS.</span>
+                    <span className="title-text green align-center mobile">SPECIALITY <br />INGREDIENTS.</span>
                     <br />
                     <ReactBootStrap.Row>
-                        <ReactBootStrap.Col xs={12} md={2}>
+                        <ReactBootStrap.Col xs={3} md={2}>
                             <img src="/assets/Group 211.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">All <br /> Natural</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={12} md={2}>
+                        <ReactBootStrap.Col xs={3} md={2}>
                             <img src="/assets/Group 218.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">100% <br />Bio-available</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={12} md={2}>
+                        <ReactBootStrap.Col xs={3} md={2}>
                             <img src="/assets/Group 202.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">No <br />Side Effects</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={12} md={2}>
+                        <ReactBootStrap.Col xs={3} md={2}>
                             <img src="/assets/Group 227.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">Clinically <br />Tested</span>
                         </ReactBootStrap.Col>
                     </ReactBootStrap.Row>
-                    <span className="default-text grey align-right">Meet the pillars that build credibility right from origins</span>
+                    <span className="default-text grey align-right desktop">Meet the pillars that build credibility right from origins</span>
+                    <span className="default-text grey align-center mobile">Meet the pillars that build credibility right from origins</span>
                 </ReactBootStrap.Col>
             </ReactBootStrap.Row>
 
             <div className="speciality-product-section2">
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={12} md={3}>
-                        <img className="product-image" src="/assets/Group 159.png" />
+                        <a href="/ncm-100"><img className="product-image" src="/assets/Group 159.png" /></a>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={12} md={3}>
-                        <img className="product-image" src="/assets/Group 163.png" />
+                        <a href="#"><img className="product-image" src="/assets/Group 163.png" /></a>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={12} md={3}>
-                        <img className="product-image" src="/assets/Group 167.png" />
+                        <a href="#"><img className="product-image" src="/assets/Group 167.png" /></a>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={12} md={3}>
-                        <img className="product-image" src="/assets/Group 171.png" />
+                        <a href="#"><img className="product-image" src="/assets/Group 171.png" /></a>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
             </div>
