@@ -13,20 +13,20 @@ function SpecialityProductPage() {
                     <span className="title-text green align-right desktop">SPECIALITY <br />INGREDIENTS.</span>
                     <span className="title-text green align-center mobile">SPECIALITY <br />INGREDIENTS.</span>
                     <br />
-                    <ReactBootStrap.Row>
-                        <ReactBootStrap.Col xs={3} md={2}>
+                    <ReactBootStrap.Row >
+                        <ReactBootStrap.Col xs={3} md={3}>
                             <img src="/assets/Group 211.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">All <br /> Natural</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={3} md={2}>
+                        <ReactBootStrap.Col xs={3} md={3}>
                             <img src="/assets/Group 218.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">100% <br />Bio-available</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={3} md={2}>
+                        <ReactBootStrap.Col xs={3} md={3}>
                             <img src="/assets/Group 202.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">No <br />Side Effects</span>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col xs={3} md={2}>
+                        <ReactBootStrap.Col xs={3} md={3}>
                             <img src="/assets/Group 227.png" className="speciality-ingredients-icon margin-auto" />
                             <span className="default-text green align-center">Clinically <br />Tested</span>
                         </ReactBootStrap.Col>

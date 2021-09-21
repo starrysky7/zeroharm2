@@ -85,11 +85,11 @@ export const Routes = () => {
           <BlogPage/>
         </Route>
 
-        <Route exact path="/speciality-ingredients">
+        {/* <Route exact path="/speciality-ingredients">
           <SpecialityProductPage/>
-        </Route>
+        </Route> */}
 
-        <Route exact path="/ncm-100">
+        <Route exact path="/ncm-100-in-test-we-trust">
           <Ncm100/>
         </Route>
 

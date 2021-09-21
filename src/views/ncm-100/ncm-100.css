@@ -23,6 +23,7 @@
 .key-feature-item-text{
     display: flex;
     align-items: center;
+    font-family: 'FuturaStd',sans-serif;
 }
 
 .key-feature-item-icon{
@@ -56,10 +57,42 @@
     padding:42px;
 }
 
+.responsive-margin{
+    margin-left:12px;
+}
+
+.mobile-bottom-margin{
+    margin-bottom:20px;
+}
+
+@media only screen and (min-width:320px){
+    .product-details-text{
+        margin-top:10px;
+        padding-left:12px;
+        margin-bottom:30px;
+    }
+}
+
 @media only screen and (min-width:768px){
+
+    
+    .product-details-text{
+        margin-top:150px;
+        padding-left:42px;
+        margin-bottom:0px;
+    }
+
     .ncm-know-more-content{
         margin-top:50px;
         padding:42px;
+    }
+
+    .responsive-margin{
+        margin-left:42px;
+    }
+
+    .mobile-bottom-margin{
+        margin-bottom:0px;
     }
 }
 

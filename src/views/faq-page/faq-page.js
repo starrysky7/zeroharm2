@@ -12,7 +12,7 @@ function FAQPage() {
                             <span className="title-text green align-center">FAQs</span>
                             <Accordion flush>
                                 <Accordion.Item eventKey="0" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -21,7 +21,7 @@ function FAQPage() {
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -31,7 +31,7 @@ function FAQPage() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="2" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -41,7 +41,7 @@ function FAQPage() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="3" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -51,7 +51,7 @@ function FAQPage() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -61,7 +61,7 @@ function FAQPage() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="5" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -71,7 +71,7 @@ function FAQPage() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="6" bsPrefix="acc-item">
-                                    <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
+                                    <Accordion.Header bsPrefix="default-styled-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

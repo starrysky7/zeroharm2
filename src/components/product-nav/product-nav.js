@@ -11,9 +11,9 @@ const ProductNav = () => {
     return (
         <div className="product-nav">
             <a href="/ncm-100-about" className="product-nav-item">About</a>
-            <a href="#" className="product-nav-item">Physicochemical Properties</a>
-            <a href="/ncm-100" className="product-nav-item">In Test We Trust</a>
-            <a href="#" className="product-nav-item">Product Applications</a>
+            <a href="/ncm-100-physiochemical-properties" className="product-nav-item">Physicochemical Properties</a>
+            <a href="/ncm-100-in-test-we-trust" className="product-nav-item">In Test We Trust</a>
+            <a href="/ncm-100-product-forms" className="product-nav-item">Product Applications</a>
         </div>
     );
 };

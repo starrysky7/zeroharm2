@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import Navbar from 'react-bootstrap'
 import * as ReactBootStrap from "react-bootstrap";
 
+
 const Nav = () => {
 
         function opnMegaNavSplIng() {
@@ -34,12 +35,28 @@ const Nav = () => {
                                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                         <ReactBootStrap.Nav className="mr-auto">
                                                 <ReactBootStrap.Nav.Link href="#2" className="nav-item">Origins</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="#" className="nav-item">Product</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.NavDropdown title="Product" className="mobile">
+                                                        <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HCM 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NAG 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HAG 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">STANDARD INGREDIENTS</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">CUSTOMIZED APIs</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY APIs</ReactBootStrap.NavDropdown.Item>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
+                                                        <br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="nav-mega-menu-btn">
+                                        <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
+                                                </ReactBootStrap.NavDropdown>
                                                 <ReactBootStrap.Nav.Link href="#4" className="nav-item">Process</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.Nav.Link href="#9" className="nav-item">Validation</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.Nav.Link href="#3" className="nav-item">Genomics</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.Nav.Link href="#13" className="nav-item">Contact Us</ReactBootStrap.Nav.Link>
-                                        </ReactBootStrap.Nav>                                       
+                                        </ReactBootStrap.Nav>
                                 </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>
 

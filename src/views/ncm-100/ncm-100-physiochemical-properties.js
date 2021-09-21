@@ -8,32 +8,32 @@ function Ncm100PhysiochemicalProperties() {
         <div className="section" >
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col xs={12} md={3} lg={3} >
-                    <img className="ncm-100-img" src="/assets/Group 157.png" />
+                    <img className="ncm-100-img" src="/assets/Group 159.png" />
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col xs={12} md={9} lg={9} className="product-details-yellow">
                     <ProductNav />
-                    <div className="margin-left-42">
+                    <div className="responsive-margin">
                         <ReactBootStrap.Row>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/Group 300.svg" />
+                                <img src="/assets/Group 300.svg" className="mobile-bottom-margin" />
                             </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/Component 1 – 1.svg" />
+                                <img src="/assets/Component 1 – 1.svg" className="mobile-bottom-margin" />
                             </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/Component 2 – 1.svg" />
+                                <img src="/assets/Component 2 – 1.svg" className="mobile-bottom-margin" />
                             </ReactBootStrap.Col>
                         </ReactBootStrap.Row>
                         <ReactBootStrap.Row>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/Component 3 – 1.svg" />
+                                <img src="/assets/Component 3 – 1.svg" className="mobile-bottom-margin"/>
                             </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/water-solubility.svg" />
+                                <img src="/assets/water-solubility.svg"className="mobile-bottom-margin" />
                             </ReactBootStrap.Col>
                             <ReactBootStrap.Col xs={12} md={4}>
-                                <img src="/assets/stability-chart.svg" />
+                                <img src="/assets/stability-chart.svg" className="mobile-bottom-margin" />
                             </ReactBootStrap.Col>
                         </ReactBootStrap.Row>
 

@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.dropdown-menu{
+    border: none!important;
+}
+
 @media (max-width:768px){
     .nav-logo-container{
         margin-left: 20px;
@@ -118,9 +122,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
+    height: 50px;
     width: 100%;
     background-color: #005d2e;
+    text-decoration: none;
 }
 
 .mega-menu-btn-txt {
@@ -155,5 +160,13 @@
     }
     .mobileHide {
         display: none;
+    }
+
+    .nav-item:hover {
+        border-bottom: none;
+    }
+    
+    .nav-item:active {
+        border-bottom: none;
     }
 }

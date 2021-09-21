@@ -8,7 +8,7 @@ function Ncm100() {
         <div className="section fit-content" >
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col xs={12} md={3}  >
-                    <img className="ncm-100-img" src="/assets/Group 157.png" />
+                    <img className="ncm-100-img" src="/assets/Group 159.png" />
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col xs={12} md={9} className="product-details-yellow">
