@@ -29,6 +29,11 @@
   border-color: #58595B;
 }
 
+.black{
+  color: #000;
+  border-color: #000;
+}
+
 .default-button {
   background-color: rgba(255, 255, 255, 0);
   padding: 16px;
@@ -50,6 +55,13 @@
 .default-styled-text {
   font-family: 'FuturaStd', sans-serif;
   text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width:768px){
+  .default-styled-text {
+    font-size: 12px;
+  }
 }
 
 .title-text {
@@ -58,8 +70,12 @@
   display: block;
   line-height: 70px;
   text-decoration: none;
+  width:100%;
 }
 
+.heading-20{
+  font-size:20px !important;
+}
 @media (max-width:768px){
   .title-text{
     line-height: 35px;
@@ -118,13 +134,26 @@
   width: 768px;
   box-sizing: border-box;
   padding: 47px 47px 31px 47px;
+  margin: 47px 0 31px 0;
 }
 
 .margin-left{
   margin-left: 82px;
 }
+
+.margin-left-42{
+  margin-left: 42px;
+}
+
+.margin-left-20{
+  margin-left:20px;
+}
 .margin-right{
   margin-right: 82px;
+}
+
+.margin-auto{
+  margin:0 auto 0 auto;
 }
 
 @media (max-width:768px) {
@@ -139,7 +168,7 @@ input {
   display: block;
   border: none;
   border-bottom: 1px solid #666;
-  width: 100%;
+  width: 95%;
   font-family: 'FuturaStd', sans-serif;
   padding: 5px 10px;
   outline: none;
@@ -161,7 +190,7 @@ input {
     float: left;
   }
   .section {
-    margin-bottom: 5%;
+    margin-bottom: 0%;
   }
 }
 

@@ -1,0 +1,40 @@
+<svg id="Component_10_1" data-name="Component 10 – 1" xmlns="http://www.w3.org/2000/svg" width="72" height="115.132" viewBox="0 0 72 115.132">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #005d2e;
+      }
+
+      .cls-1 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+    </style>
+  </defs>
+  <text id="Clinically_Tested" data-name="Clinically
+Tested" class="cls-1" transform="translate(36 88.132)"><tspan x="-35.629" y="0">Clinically</tspan><tspan x="-24.932" y="23">Tested</tspan></text>
+  <g id="Group_227" data-name="Group 227" transform="translate(-1438.895 -2698.671)">
+    <g id="Group_220" data-name="Group 220">
+      <g id="Group_219" data-name="Group 219">
+        <path id="Path_209" data-name="Path 209" class="cls-2" d="M1474.9,2751.364a26.347,26.347,0,1,1,26.349-26.348A26.376,26.376,0,0,1,1474.9,2751.364Zm0-49.943a23.6,23.6,0,1,0,23.6,23.6A23.622,23.622,0,0,0,1474.9,2701.421Z"/>
+      </g>
+    </g>
+    <g id="Group_226" data-name="Group 226">
+      <g id="Group_221" data-name="Group 221">
+        <path id="Path_210" data-name="Path 210" class="cls-2" d="M1479.222,2712.333h-10.265a1.376,1.376,0,0,1,0-2.752h10.265a1.376,1.376,0,0,1,0,2.752Z"/>
+      </g>
+      <g id="Group_224" data-name="Group 224">
+        <g id="Group_222" data-name="Group 222">
+          <path id="Path_211" data-name="Path 211" class="cls-2" d="M1480.812,2724.355l-2.157-3.645v-8.641a1.375,1.375,0,1,0-2.75,0v9.4l2.6,4.386Z"/>
+        </g>
+        <g id="Group_223" data-name="Group 223">
+          <path id="Path_212" data-name="Path 212" class="cls-2" d="M1483.532,2728.955l-2.306,1.5,2.438,4.122c.375.8.477,1.424.281,1.722-.273.422-1.3.627-1.948.619H1467.29c-1.031,0-1.735-.214-1.982-.6a2.786,2.786,0,0,1,.141-2.089l7.1-13.069v-8.812a1.375,1.375,0,1,0-2.75,0v8.113l-6.808,12.528c-.132.281-1.265,2.822-.008,4.8.788,1.245,2.238,1.876,4.305,1.876h14.669c.021,0,.055,0,.106,0,.6,0,3.035-.111,4.182-1.863.763-1.164.733-2.643-.153-4.514Z"/>
+        </g>
+      </g>
+      <g id="Group_225" data-name="Group 225">
+        <path id="Path_213" data-name="Path 213" class="cls-2" d="M1476.877,2732.219l-5.5-5.5a1.353,1.353,0,0,1,1.914-1.912l3.822,3.825,11.787-9a1.353,1.353,0,1,1,1.642,2.15Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

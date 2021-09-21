@@ -35,13 +35,13 @@ function Landing() {
     <div className="landing">
       <LandingSection1 />
       <LandingSection2 scrollValue={scrollValue} />
-      <LandingSection3 />
       <LandingSection4 />
       <LandingSection5 />
       <LandingSection6 />
       <LandingSection7 scrollValue={scrollValue} />
       <LandingSection9 />
       <LandingSection8 />
+      <LandingSection3 />
       {/* <LandingSection10 /> */}
       {/* <LandingSection11 /> */}
       {/* <LandingSection12 /> */}

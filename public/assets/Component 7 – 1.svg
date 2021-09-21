@@ -1,0 +1,40 @@
+<svg id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" width="58" height="115.132" viewBox="0 0 58 115.132">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #005d2e;
+      }
+
+      .cls-1 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+    </style>
+  </defs>
+  <text id="All_Natural" data-name="All
+Natural" class="cls-1" transform="translate(29 88.132)"><tspan x="-9.97" y="0">All</tspan><tspan x="-28.952" y="23">Natural</tspan></text>
+  <g id="Group_211" data-name="Group 211" transform="translate(-1041.918 -2698.671)">
+    <g id="Group_204" data-name="Group 204">
+      <g id="Group_203" data-name="Group 203">
+        <path id="Path_199" data-name="Path 199" class="cls-2" d="M1071,2751.364a26.347,26.347,0,1,1,26.349-26.348A26.379,26.379,0,0,1,1071,2751.364Zm0-49.943a23.6,23.6,0,1,0,23.6,23.6A23.622,23.622,0,0,0,1071,2701.421Z"/>
+      </g>
+    </g>
+    <g id="Group_210" data-name="Group 210">
+      <g id="Group_207" data-name="Group 207">
+        <g id="Group_205" data-name="Group 205">
+          <path id="Path_200" data-name="Path 200" class="cls-2" d="M1067.255,2740.08a30.61,30.61,0,0,1-6.014-.646l-.593-.119-.313-.519c-.213-.353-5.174-8.737-1.344-16.721,3.1-6.456,10.937-10.57,23.3-12.226l1.291-.173.243,1.28c.13.684,3.09,16.84-5,24.843C1075.944,2738.649,1072.067,2740.08,1067.255,2740.08Zm-4.844-3.223c6.407,1.166,11.276.155,14.479-3.014,5.845-5.783,4.931-17.224,4.428-21.075-10.595,1.621-17.266,5.144-19.837,10.48C1058.773,2728.867,1061.491,2735.053,1062.411,2736.857Z"/>
+        </g>
+        <g id="Group_206" data-name="Group 206">
+          <path id="Path_201" data-name="Path 201" class="cls-2" d="M1061.972,2738a1.375,1.375,0,0,1-1.069-2.24l19.344-23.957a1.376,1.376,0,0,1,2.141,1.729l-19.345,23.957A1.372,1.372,0,0,1,1061.972,2738Z"/>
+        </g>
+      </g>
+      <g id="Group_208" data-name="Group 208">
+        <path id="Path_202" data-name="Path 202" class="cls-2" d="M1082.781,2724.644h-.042l-11.271-.339-2.236-9.551a1.376,1.376,0,0,1,2.679-.627l1.754,7.492,9.156.275a1.376,1.376,0,0,1-.04,2.751Z"/>
+      </g>
+      <g id="Group_209" data-name="Group 209">
+        <path id="Path_203" data-name="Path 203" class="cls-2" d="M1077.713,2735.4a1.444,1.444,0,0,1-.269-.026l-12.815-2.534-4.183-11.474a1.376,1.376,0,1,1,2.585-.943l3.652,10.019,11.3,2.232a1.376,1.376,0,0,1-.265,2.726Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

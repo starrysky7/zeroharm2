@@ -19,6 +19,10 @@ import BlogPage from './views/blog/blog';
 import SpecialityProductPage from './views/speciality-products/speciality-product-page';
 import Ncm100 from './views/ncm-100/ncm-100';
 import StickyChat from './components/sticky-chat/sticky-chat';
+import Ncm100About from './views/ncm-100/ncm-100-about';
+import Ncm100PhysiochemicalProperties from './views/ncm-100/ncm-100-physiochemical-properties';
+import Ncm100ProductForms from './views/ncm-100/ncm-100-product-forms';
+import Ncm100KnowMore from './views/ncm-100/ncm-100-know-more';
 
 export const Routes = () => {
   return (
@@ -87,6 +91,22 @@ export const Routes = () => {
 
         <Route exact path="/ncm-100">
           <Ncm100/>
+        </Route>
+
+        <Route exact path="/ncm-100-about">
+          <Ncm100About/>
+        </Route>
+
+        <Route exact path="/ncm-100-physiochemical-properties">
+          <Ncm100PhysiochemicalProperties />
+        </Route>
+
+        <Route exact path="/ncm-100-product-forms">
+          <Ncm100ProductForms />
+        </Route>
+
+        <Route exact path="/ncm-100-know-more">
+          <Ncm100KnowMore/>
         </Route>
 
       </Switch>

@@ -24,6 +24,7 @@
 
 .form-field{
     margin-bottom: 42px;
+    border-color: #ccc;
 }
 
 .form-field:last-of-type{

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.837" height="283.077" viewBox="0 0 293.837 283.077">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #eaa921;
+      }
+
+      .cls-4 {
+        stroke-width: 1.409px;
+      }
+
+      .cls-6 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(0.704 0.704)">
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit_sed_diam_nonummy_nibh_euismod_tincidunt_ut_laoreet_dolore_magna_aliquam_erat_volutpat._Ut_wisi_enim_ad_minim_veniam_quis_nostrud_exerci_tation_ullamcorper._er_adipiscing_elit_sed_diam_nonummy_nibh" data-name="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+er adipiscing elit, sed diam nonummy nibh" class="cls-1" transform="translate(54.759 46.373)"><tspan x="0" y="16">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="39">consectetuer adipiscing elit, </tspan><tspan x="0" y="62">sed diam nonummy nibh </tspan><tspan x="0" y="85">euismod tincidunt ut laoreet </tspan><tspan x="0" y="108">dolore magna aliquam erat </tspan><tspan x="0" y="131">volutpat. Ut wisi enim ad </tspan><tspan x="0" y="154">minim veniam, quis nostrud </tspan><tspan x="0" y="177">exerci tation ullamcorper.</tspan><tspan x="0" y="200">er adipiscing elit, sed diam </tspan><tspan x="0" y="223">nonummy nibh euismod.</tspan></text>
+    <g id="_111Component_2" data-name="111Component 2">
+      <rect id="Rectangle_101" data-name="Rectangle 101" class="cls-2" width="246.738" height="24.704" transform="translate(45.895 13.593)"/>
+      <text id="Flowability" class="cls-3" transform="translate(54.969 30.54)"><tspan x="0" y="0">Flowability</tspan></text>
+      <g id="Group_314" data-name="Group 314" transform="translate(-2373.782 -7488.77)">
+        <circle id="Ellipse_54" data-name="Ellipse 54" class="cls-4" cx="25.335" cy="25.335" r="25.335" transform="translate(2373.782 7488.77)"/>
+        <g id="Group_312" data-name="Group 312">
+          <path id="Path_291" data-name="Path 291" class="cls-5" d="M2375.282,7505.328c3.511,0,3.511,3.933,7.021,3.933s3.511-3.933,7.021-3.933,3.512,3.933,7.023,3.933,3.51-3.933,7.019-3.933,3.513,3.933,7.026,3.933,3.515-3.933,7.03-3.933,3.515,3.933,7.03,3.933"/>
+          <path id="Path_292" data-name="Path 292" class="cls-6" d="M2375.282,7505.328c3.511,0,3.511,3.933,7.021,3.933s3.511-3.933,7.021-3.933,3.512,3.933,7.023,3.933,3.51-3.933,7.019-3.933,3.513,3.933,7.026,3.933,3.515-3.933,7.03-3.933,3.515,3.933,7.03,3.933"/>
+        </g>
+        <g id="Group_313" data-name="Group 313">
+          <path id="Path_293" data-name="Path 293" class="cls-5" d="M2374.665,7518.452c3.511,0,3.511,3.934,7.021,3.934s3.511-3.934,7.021-3.934,3.512,3.934,7.023,3.934,3.51-3.934,7.019-3.934,3.513,3.934,7.026,3.934,3.515-3.934,7.03-3.934,3.515,3.934,7.03,3.934"/>
+          <path id="Path_294" data-name="Path 294" class="cls-6" d="M2374.665,7518.452c3.511,0,3.511,3.934,7.021,3.934s3.511-3.934,7.021-3.934,3.512,3.934,7.023,3.934,3.51-3.934,7.019-3.934,3.513,3.934,7.026,3.934,3.515-3.934,7.03-3.934,3.515,3.934,7.03,3.934"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

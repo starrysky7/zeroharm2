@@ -1,10 +1,28 @@
 .about-section5 {
     background: url(nano.jpg);
     background-size: cover;
+    background-position-y: -10px;
+}
+
+.about-section5-image {
+    display: none;
+}
+
+.about-section5-content-container {
+    margin: 200px 0 0 82px;
 }
 
 @media (max-width:576px) {
     .about-section5 {
-        background-position-x: 50%;
+        background: none;
+    }
+    .about-section5-image {
+        display: block;
+        width: 110%;
+    }
+
+    .about-section5-content-container {
+        width: 320px;
+        margin: 30% 0 0 8%;
     }
 }

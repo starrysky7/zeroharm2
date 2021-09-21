@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.026" height="170.448" viewBox="0 0 297.026 170.448">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-2, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5, .cls-6, .cls-7 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: FuturaStd-Heavy;
+        font-weight: 800;
+      }
+
+      .cls-5 {
+        fill: #eaa921;
+        stroke-width: 1.644px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-7 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0.822 0.822)">
+    <text id="Particle_Size_Moisture_Residual_Content_Microbial_Count_Heavy_Metals" data-name="Particle Size
+Moisture %
+Residual Content
+Microbial Count
+Heavy Metals" class="cls-1" transform="translate(54.969 61.536)"><tspan x="0" y="0">Particle Size</tspan><tspan x="0" y="23">Moisture %</tspan><tspan x="0" y="46">Residual Content</tspan><tspan x="0" y="69">Microbial Count</tspan><tspan x="0" y="92">Heavy Metals</tspan></text>
+    <text id="_40-_60_nm_2_10_ppm_100_cfu_g_Nil" data-name="40- 60 nm
+&lt; 2 %
+&lt; 10 ppm
+&lt; 100 cfu/g
+Nil" class="cls-1" transform="translate(203.204 61.536)"><tspan x="0" y="0">40- 60 nm</tspan><tspan x="0" y="23">&lt; 2 %</tspan><tspan x="0" y="46">&lt; 10 ppm</tspan><tspan x="0" y="69">&lt; 100 cfu/g</tspan><tspan x="0" y="92">Nil</tspan></text>
+    <path id="Path_286" data-name="Path 286" class="cls-2" d="M2419.677,7274.765h-12.856v145.954h238.972l9.327-9.327" transform="translate(-2373.782 -7251.593)"/>
+    <rect id="Rectangle_97" data-name="Rectangle 97" class="cls-2" width="246.738" height="24.704" transform="translate(45.895 13.592)"/>
+    <text id="Key_Specifications" data-name="Key Specifications" class="cls-3" transform="translate(54.969 30.54)"><tspan x="0" y="0">Key Specifications</tspan></text>
+    <text id="_API_" data-name="%API
+" class="cls-3" transform="translate(203.204 30.199)"><tspan x="0" y="0">%API</tspan><tspan class="cls-4"><tspan x="0" y="23"></tspan></tspan></text>
+    <g id="Group_322" data-name="Group 322" transform="translate(-2373.782 -7251.593)">
+      <circle id="Ellipse_56" data-name="Ellipse 56" class="cls-5" cx="25.335" cy="25.335" r="25.335" transform="translate(2373.782 7251.593)"/>
+      <g id="Group_321" data-name="Group 321">
+        <rect id="Rectangle_103" data-name="Rectangle 103" class="cls-6" width="24.856" height="31.058" transform="translate(2386.689 7261.399)"/>
+        <g id="Group_320" data-name="Group 320">
+          <g id="Group_317" data-name="Group 317">
+            <path id="Path_296" data-name="Path 296" class="cls-7" d="M2390.861,7269.55l1.608,1.608,5.671-4.626"/>
+            <line id="Line_110" data-name="Line 110" class="cls-7" x2="4.912" transform="translate(2402.461 7271.159)"/>
+          </g>
+          <g id="Group_318" data-name="Group 318">
+            <path id="Path_297" data-name="Path 297" class="cls-7" d="M2390.861,7277.633l1.608,1.608,5.671-4.626"/>
+            <line id="Line_111" data-name="Line 111" class="cls-7" x2="4.912" transform="translate(2402.461 7279.241)"/>
+          </g>
+          <g id="Group_319" data-name="Group 319">
+            <path id="Path_298" data-name="Path 298" class="cls-7" d="M2390.861,7285.715l1.608,1.608,5.671-4.626"/>
+            <line id="Line_112" data-name="Line 112" class="cls-7" x2="4.912" transform="translate(2402.461 7287.324)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -9,38 +9,6 @@
     height:100vh;
 }
 
-/* .leaf-static-img {
-    max-width: 71%;
-    max-height: 100vh;
-    margin-top: 10%;
-    display: inline-block;
-}
-
-.leaf-anim-img {
-    max-width: 71%;
-    max-height: 100vh;
-    margin-top: -80%;
-    margin-left: 40%;
-    display: inline-block;
-    transform: rotate(50deg);
-    z-index: 11;
-    animation-name: leaf-anim;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes leaf-anim {
-    0% {
-        transform: rotate(50deg);
-    }
-    50% {
-        transform: rotate(30deg) translateX(-100px) translateY(-20px);
-    }
-    100% {
-        transform: rotate(50deg);
-    }
-} */
-
 .landing-section1-text1 {
     display: block;
     margin: 120% 0 0 82px;
@@ -71,7 +39,7 @@
         margin-top: 18%;
     } */
     .landing-section1-text1 {
-        margin: 30% 0 0 0;
+        margin: 25% 0 20px 0;
         text-align: left;
         margin-left: 5%;
         margin-right: 5%

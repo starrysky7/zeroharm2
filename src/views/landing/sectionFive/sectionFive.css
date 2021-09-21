@@ -17,9 +17,10 @@
 
 @media (max-width:786px){
     .globeimage{
-         margin-top: 15%;
-         width: 65%
+         margin:0 auto 0 auto;
+         width: 100%;
     }
+
     .section5-content-container{
          padding:5% 5% 0 5%;
         margin:0 0 0 0;

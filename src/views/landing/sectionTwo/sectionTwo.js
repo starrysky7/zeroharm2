@@ -20,16 +20,16 @@ function SectionTwo(props) {
         })
       )
 
-    else
-      setAnim(
-        anime({
-          targets: '.section2',
-          'background-position-x': '80%',
-          'background-position-y': '15%',
-          easing: 'linear',
-          autoplay: false
-        })
-      )
+    // else
+    //   setAnim(
+    //     anime({
+    //       targets: '.section2',
+    //       'background-position-x': '80%',
+    //       'background-position-y': '15%',
+    //       easing: 'linear',
+    //       autoplay: false
+    //     })
+    //   )
   }, [setAnim]);
 
   useEffect(() => {

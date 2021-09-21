@@ -9,7 +9,7 @@ function FAQPage() {
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={12} md={12}>
                         <div className="content-container">
-                            <span className="title-text green pat-cert-heading">FAQs</span>
+                            <span className="title-text green align-center">FAQs</span>
                             <Accordion flush>
                                 <Accordion.Item eventKey="0" bsPrefix="acc-item">
                                     <Accordion.Header bsPrefix="acc-text">Lorem ipsum dolor sit amet, consectetue?</Accordion.Header>

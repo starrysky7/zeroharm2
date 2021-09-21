@@ -1,7 +1,12 @@
-
-
-
 .certif-img{
-    height:100px;
     width:100px;
+}
+
+@media (max-width:768px){
+    .certif-img{
+        width:70px;
+        margin-bottom: 20px;
+        position: relative;
+        left:10px;
+    }
 }
