@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.883" height="283.123" viewBox="0 0 293.883 283.123">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #eaa921;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Component_2_2" data-name="Component 2 – 2" transform="translate(0.75 0.75)">
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit_sed_diam_nonummy_nibh_euismod_tincidunt_ut_laoreet_dolore_magna_aliquam_erat_volutpat._Ut_wisi_enim_ad_minim_veniam_quis_nostrud_exerci_tation_ullamcorper._er_adipiscing_elit_sed_diam_nonummy_nibh" data-name="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+er adipiscing elit, sed diam nonummy nibh" class="cls-1" transform="translate(54.759 46.373)"><tspan x="0" y="16">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="39">consectetuer adipiscing elit, </tspan><tspan x="0" y="62">sed diam nonummy nibh </tspan><tspan x="0" y="85">euismod tincidunt ut laoreet </tspan><tspan x="0" y="108">dolore magna aliquam erat </tspan><tspan x="0" y="131">volutpat. Ut wisi enim ad </tspan><tspan x="0" y="154">minim veniam, quis nostrud </tspan><tspan x="0" y="177">exerci tation ullamcorper.</tspan><tspan x="0" y="200">er adipiscing elit, sed diam </tspan><tspan x="0" y="223">nonummy nibh euismod.</tspan></text>
+    <g id="_111111Component_1" data-name="111111Component 1">
+      <rect id="Rectangle_100" data-name="Rectangle 100" class="cls-2" width="246.738" height="24.704" transform="translate(45.895 13.593)"/>
+      <text id="Water_Solubility_" data-name="Water Solubility " class="cls-3" transform="translate(54.969 30.54)"><tspan x="0" y="0">Water Solubility </tspan></text>
+      <g id="Group_311" data-name="Group 311" transform="translate(-2057.429 -7488.77)">
+        <circle id="Ellipse_47" data-name="Ellipse 47" class="cls-4" cx="25.335" cy="25.335" r="25.335" transform="translate(2057.429 7488.77)"/>
+        <rect id="Rectangle_102" data-name="Rectangle 102" class="cls-5" width="14.096" height="26.987" rx="6.604" transform="translate(2075.716 7498.599)"/>
+        <line id="Line_103" data-name="Line 103" class="cls-4" x2="50.67" transform="translate(2057.429 7514.104)"/>
+        <circle id="Ellipse_48" data-name="Ellipse 48" class="cls-6" cx="1.953" cy="1.953" r="1.953" transform="translate(2072.068 7526.533)"/>
+        <circle id="Ellipse_49" data-name="Ellipse 49" class="cls-6" cx="1.302" cy="1.302" r="1.302" transform="translate(2091.716 7518.01)"/>
+        <circle id="Ellipse_50" data-name="Ellipse 50" class="cls-6" cx="1.302" cy="1.302" r="1.302" transform="translate(2091.643 7527.184)"/>
+        <circle id="Ellipse_51" data-name="Ellipse 51" class="cls-6" cx="1.302" cy="1.302" r="1.302" transform="translate(2070.115 7518.01)"/>
+        <circle id="Ellipse_52" data-name="Ellipse 52" class="cls-6" cx="2.026" cy="2.026" r="2.026" transform="translate(2095.616 7520.363)"/>
+        <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-6" cx="2.19" cy="2.19" r="2.19" transform="translate(2078.268 7517.004)"/>
+      </g>
+    </g>
+  </g>
+</svg>

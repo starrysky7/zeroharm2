@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="305.426" height="215.492" viewBox="0 0 305.426 215.492">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-2, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-3, .cls-6, .cls-8 {
+        fill: #231f20;
+      }
+
+      .cls-11, .cls-12, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-5, .cls-7, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 8.434px;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-8 {
+        font-size: 5.903px;
+      }
+
+      .cls-9 {
+        font-size: 15px;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #eaa921;
+      }
+
+      .cls-10 {
+        stroke-width: 1.409px;
+      }
+
+      .cls-11, .cls-12 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Component_1_2" data-name="Component 1 – 2" transform="translate(0.704 0.704)">
+    <path id="Path_289" data-name="Path 289" class="cls-1" d="M2735.61,7514.4h-12.856v188.654h262.275l9.327-9.327" transform="translate(-2689.988 -7488.77)"/>
+    <g id="Group_310" data-name="Group 310" transform="translate(-2689.988 -7488.77)">
+      <path id="Path_290" data-name="Path 290" class="cls-2" d="M2983.7,7682.371H2753.3V7539.19"/>
+      <line id="Line_92" data-name="Line 92" class="cls-3" x2="230.401" transform="translate(2753.296 7563.137)"/>
+      <line id="Line_93" data-name="Line 93" class="cls-3" x2="230.401" transform="translate(2753.296 7586.833)"/>
+      <line id="Line_94" data-name="Line 94" class="cls-3" x2="230.401" transform="translate(2753.296 7610.528)"/>
+      <line id="Line_95" data-name="Line 95" class="cls-3" x2="230.401" transform="translate(2753.296 7634.224)"/>
+      <line id="Line_96" data-name="Line 96" class="cls-3" x2="230.401" transform="translate(2753.296 7657.919)"/>
+      <line id="Line_97" data-name="Line 97" class="cls-4" y1="98.059" x2="153.769" transform="translate(2790.856 7563.137)"/>
+      <ellipse id="Ellipse_42" data-name="Ellipse 42" class="cls-5" cx="2.379" cy="3.025" rx="2.379" ry="3.025" transform="translate(2789.123 7658.676)"/>
+      <ellipse id="Ellipse_43" data-name="Ellipse 43" class="cls-1" cx="2.379" cy="3.025" rx="2.379" ry="3.025" transform="translate(2827.854 7633.25)"/>
+      <ellipse id="Ellipse_44" data-name="Ellipse 44" class="cls-1" cx="2.379" cy="3.025" rx="2.379" ry="3.025" transform="translate(2866.117 7609.142)"/>
+      <ellipse id="Ellipse_45" data-name="Ellipse 45" class="cls-1" cx="2.379" cy="3.025" rx="2.379" ry="3.025" transform="translate(2904.253 7580.783)"/>
+      <ellipse id="Ellipse_46" data-name="Ellipse 46" class="cls-1" cx="2.379" cy="3.025" rx="2.379" ry="3.025" transform="translate(2942.762 7561.301)"/>
+      <text id="_100_" data-name="100%" class="cls-6" transform="translate(2729.793 7567.738)"><tspan x="0" y="0">100%</tspan></text>
+      <text id="_0" data-name="0" class="cls-7" transform="translate(2750.968 7695.29)"><tspan x="0" y="0">0</tspan></text>
+      <text id="_10" data-name="10" class="cls-6" transform="translate(2786.476 7695.29)"><tspan x="0" y="0">10</tspan></text>
+      <text id="_20" data-name="20" class="cls-6" transform="translate(2824.666 7695.29)"><tspan x="0" y="0">20</tspan></text>
+      <text id="_30" data-name="30" class="cls-6" transform="translate(2862.856 7695.29)"><tspan x="0" y="0">30</tspan></text>
+      <text id="_40" data-name="40" class="cls-6" transform="translate(2901.046 7695.29)"><tspan x="0" y="0">40</tspan></text>
+      <text id="_50" data-name="50" class="cls-6" transform="translate(2939.235 7695.29)"><tspan x="0" y="0">50</tspan></text>
+      <text id="_60" data-name="60" class="cls-6" transform="translate(2977.301 7695.29)"><tspan x="0" y="0">60</tspan></text>
+      <text id="_80_" data-name="80%" class="cls-6" transform="translate(2729.793 7590.993)"><tspan x="0" y="0">80%</tspan></text>
+      <text id="_60_" data-name="60%" class="cls-6" transform="translate(2729.793 7614.247)"><tspan x="0" y="0">60%</tspan></text>
+      <text id="_40_" data-name="40%" class="cls-6" transform="translate(2729.793 7637.501)"><tspan x="0" y="0">40%</tspan></text>
+      <text id="_20_" data-name="20%" class="cls-6" transform="translate(2729.793 7660)"><tspan x="0" y="0">20%</tspan></text>
+      <line id="Line_98" data-name="Line 98" class="cls-3" y2="143.181" transform="translate(2791.486 7539.19)"/>
+      <line id="Line_99" data-name="Line 99" class="cls-3" y2="143.181" transform="translate(2830.232 7539.19)"/>
+      <line id="Line_100" data-name="Line 100" class="cls-3" y2="143.181" transform="translate(2868.979 7539.19)"/>
+      <line id="Line_101" data-name="Line 101" class="cls-3" y2="143.181" transform="translate(2906.819 7539.19)"/>
+      <line id="Line_102" data-name="Line 102" class="cls-3" y2="143.181" transform="translate(2945.548 7539.19)"/>
+      <text id="y_0.0104x_-_0.0184" data-name="y= 0.0104x - 0.0184" class="cls-6" transform="translate(2870.875 7557.774)"><tspan x="0" y="0">y= 0.0104x - 0.0184</tspan></text>
+      <g id="Group_309" data-name="Group 309">
+        <text id="R_0.9985" data-name="R= 0.9985" class="cls-6" transform="translate(2887.589 7581.428)"><tspan x="0" y="0">R= 0.9985</tspan></text>
+        <text id="_2" data-name="2" class="cls-8" transform="translate(2891.931 7578.843)"><tspan x="0" y="0">2</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_99" data-name="Rectangle 99" class="cls-1" width="219.562" height="24.704" transform="translate(45.622 16.054)"/>
+    <text id="Stability_Chart" data-name="Stability Chart" class="cls-9" transform="translate(54.697 33.073)"><tspan x="0" y="0">Stability Chart</tspan></text>
+    <g id="Group_316" data-name="Group 316" transform="translate(-2689.988 -7488.77)">
+      <circle id="Ellipse_55" data-name="Ellipse 55" class="cls-10" cx="25.335" cy="25.335" r="25.335" transform="translate(2689.988 7488.77)"/>
+      <g id="Group_315" data-name="Group 315">
+        <line id="Line_104" data-name="Line 104" class="cls-11" y2="20.536" transform="translate(2706.167 7505.165)"/>
+        <line id="Line_105" data-name="Line 105" class="cls-11" y2="20.536" transform="translate(2712.085 7505.165)"/>
+        <line id="Line_106" data-name="Line 106" class="cls-11" y2="20.536" transform="translate(2718.003 7505.165)"/>
+        <line id="Line_107" data-name="Line 107" class="cls-11" y2="20.536" transform="translate(2723.921 7505.165)"/>
+      </g>
+      <line id="Line_108" data-name="Line 108" class="cls-12" x2="23.673" transform="translate(2703.444 7501.529)"/>
+      <line id="Line_109" data-name="Line 109" class="cls-12" x2="23.673" transform="translate(2703.444 7529.335)"/>
+      <path id="Path_295" data-name="Path 295" class="cls-12" d="M2725.828,7499.23l2.221,2.221-1.866,2.987"/>
+    </g>
+  </g>
+</svg>

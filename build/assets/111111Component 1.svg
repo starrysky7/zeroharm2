@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.883" height="52.169" viewBox="0 0 293.883 52.169">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-3 {
+        fill: #eaa921;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="_111111Component_1" data-name="111111Component 1" transform="translate(0.75 0.75)">
+    <rect id="Rectangle_100" data-name="Rectangle 100" class="cls-1" width="246.738" height="24.704" transform="translate(45.895 13.593)"/>
+    <text id="Water_Solubility_" data-name="Water Solubility " class="cls-2" transform="translate(54.969 30.54)"><tspan x="0" y="0">Water Solubility </tspan></text>
+    <g id="Group_311" data-name="Group 311" transform="translate(-2057.429 -7488.77)">
+      <circle id="Ellipse_47" data-name="Ellipse 47" class="cls-3" cx="25.335" cy="25.335" r="25.335" transform="translate(2057.429 7488.77)"/>
+      <rect id="Rectangle_102" data-name="Rectangle 102" class="cls-4" width="14.096" height="26.987" rx="6.604" transform="translate(2075.716 7498.599)"/>
+      <line id="Line_103" data-name="Line 103" class="cls-3" x2="50.67" transform="translate(2057.429 7514.104)"/>
+      <circle id="Ellipse_48" data-name="Ellipse 48" class="cls-5" cx="1.953" cy="1.953" r="1.953" transform="translate(2072.068 7526.533)"/>
+      <circle id="Ellipse_49" data-name="Ellipse 49" class="cls-5" cx="1.302" cy="1.302" r="1.302" transform="translate(2091.716 7518.01)"/>
+      <circle id="Ellipse_50" data-name="Ellipse 50" class="cls-5" cx="1.302" cy="1.302" r="1.302" transform="translate(2091.643 7527.184)"/>
+      <circle id="Ellipse_51" data-name="Ellipse 51" class="cls-5" cx="1.302" cy="1.302" r="1.302" transform="translate(2070.115 7518.01)"/>
+      <circle id="Ellipse_52" data-name="Ellipse 52" class="cls-5" cx="2.026" cy="2.026" r="2.026" transform="translate(2095.616 7520.363)"/>
+      <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-5" cx="2.19" cy="2.19" r="2.19" transform="translate(2078.268 7517.004)"/>
+    </g>
+  </g>
+</svg>
