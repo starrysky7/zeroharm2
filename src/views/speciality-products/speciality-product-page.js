@@ -39,7 +39,7 @@ function SpecialityProductPage() {
             <div className="speciality-product-section2">
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={12} md={3}>
-                        <a href="/ncm-100"><img className="product-image" src="/assets/Group 159.png" /></a>
+                        <a href="/ncm-100-about"><img className="product-image" src="/assets/Group 159.png" /></a>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={12} md={3}>
                         <a href="#"><img className="product-image" src="/assets/Group 163.png" /></a>
