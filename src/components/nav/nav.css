@@ -1,7 +1,7 @@
 .nav {
     /*    margin: 2% 0 0 5%;*/
     position: fixed;
-    z-index: 100;
+    z-index: 150;
     border-bottom: 1px solid #eee;
     width:100%;
     background-color: #fff;
