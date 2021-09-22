@@ -11,25 +11,60 @@ function Footer() {
 
     function onSubmit() {
 
-        window.emailjs.send(
-            'service_qnho4q5', 'template_sgayh4k',
-            {
-                subject: subject,
-                from_name: name,
-                from_email: email,
-                message: message,
-                reply_to: email
-            }
-        ).then(res => {
-            console.log('Email successfully sent!')
-            alert('message submitted')
-            setName('')
-            setEmail('')
-            setSubject('')
-            setMessage('')
-        })
-            // Handle errors here however you like, or use a React error boundary
-            .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+        var validated = 1;
+        if (!name) {
+            validated = 0;
+            alert("Name field cannot be empty")
+        }
+
+        if (!name.match(/^[A-Za-z]+$/)) {
+            validated = 0;
+            alert("Name can contain only alphabetical characters")
+        }
+
+        if (!email) {
+            validated = 0;
+            alert("Email field cannot be empty")
+
+        }
+        if (!email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)) {
+            validated = 0;
+            alert("Enter a valid email")
+        }
+
+        if (!subject) {
+            validated = 0;
+            alert("Subject field cannot be empty")
+        }
+     
+        if (!message) {
+            validated = 0;
+            alert("Message field cannot be empty")
+        }
+
+
+        if (validated == 1) {
+            window.emailjs.send(
+                'service_qnho4q5', 'template_sgayh4k',
+                {
+                    subject: subject,
+                    from_name: name,
+                    from_email: email,
+                    message: message,
+                    reply_to: email
+                }
+            ).then(res => {
+                console.log('Email successfully sent!')
+                alert('message submitted')
+                setName('')
+                setEmail('')
+                setSubject('')
+                setMessage('')
+            })
+                // Handle errors here however you like, or use a React error boundary
+                .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+        }
+       
     }
 
     return (
