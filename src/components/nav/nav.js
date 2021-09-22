@@ -38,7 +38,7 @@ const Nav = () => {
                                                 <ReactBootStrap.Nav.Link href="#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.NavDropdown title="Product" className="mobile">
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
-                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="/ncm-100-about" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br/>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HCM 100</ReactBootStrap.NavDropdown.Item><br/>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NAG 100</ReactBootStrap.NavDropdown.Item><br/>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HAG 100</ReactBootStrap.NavDropdown.Item><br/>
@@ -64,7 +64,7 @@ const Nav = () => {
                                 <ReactBootStrap.Row className="mega-menu-row1" >
                                         <ReactBootStrap.Col xs={12} md={4} lg={4}>
                                                 <a href="/speciality-ingredients" className="title-text green">SPECIALITY <br />INGREDIENTS</a>
-                                                <a href="" className="grey align-left default-styled-text">NCM 100</a><br />
+                                                <a href="/ncm-100-about" className="grey align-left default-styled-text">NCM 100</a><br />
                                                 <a href="" className="grey align-left default-styled-text">HCM 100</a><br />
                                                 <a href="" className="grey align-left default-styled-text">NAG 100</a><br />
                                                 <a href="" className="grey align-left default-styled-text">HAG 100</a>

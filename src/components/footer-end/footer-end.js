@@ -16,17 +16,17 @@ function FooterEnd() {
 
                 <ReactBootStrap.Col xs={6} md={2} lg={2} className="footer-end-group">
                     <span className="footer-end-title">Company</span>
-                    <a href="#" className="footer-end-item">Blog</a>
-                    <a href="#" className="footer-end-item">Patents &amp; Certificates</a>
+                    <a href="/blog" className="footer-end-item">Blog</a>
+                    <a href="/patents-and-certificates" className="footer-end-item">Patents &amp; Certificates</a>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={6} md={2} lg={2} className="footer-end-group">
                     <span className="footer-end-title">Customer Care</span>
-                    <a href="#" className="footer-end-item">FAQs</a>
-                    <a href="#" className="footer-end-item">Feedback</a>
-                    <a href="#" className="footer-end-item">Terms &amp; Conditions</a>
+                    <a href="/faq" className="footer-end-item">FAQs</a>
+                    <a href="/feedback" className="footer-end-item">Feedback</a>
+                    <a href="/terms-and-conditions" className="footer-end-item">Terms &amp; Conditions</a>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={6} md={2} lg={2} className="footer-end-group">
-                    <span className="footer-end-title">Retail Partners</span>
+                    <a href="/retail-partners" className="footer-end-title">Retail Partners</a>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={6} md={2} lg={2} className="footer-end-group">
                     <span className="footer-end-title">Follow Us</span>
@@ -41,7 +41,7 @@ function FooterEnd() {
 
             <ReactBootStrap.Row className="footer-end-bottom">
                 <ReactBootStrap.Col xs={12} md={4} >
-                    <span className="footer-end-small-text terms-text">Terms of Service | Privacy Policy</span>
+                    <span className="footer-end-small-text terms-text"><a href="/terms-and-conditions">Terms of Service</a> | Privacy Policy</span>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={12} md={2} >
                 </ReactBootStrap.Col>
