@@ -5,13 +5,13 @@ import React from 'react';
 function SpecialityProductPage() {
     return (
         <>
-            <ReactBootStrap.Row>
+            <div className="flex-row">
                 <ReactBootStrap.Col xs={12} md={6}>
                     <img className="speciality-prod-sect-1-img" src="/assets/Group 172.png" />
                 </ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={12} md={6}>
+                <ReactBootStrap.Col xs={12} md={6} className="speciality-ingredients-flex">
                     <span className="title-text green align-right desktop">SPECIALITY <br />INGREDIENTS.</span>
-                    <span className="title-text green align-center mobile">SPECIALITY <br />INGREDIENTS.</span>
+                    <span className="title-text green align-center mobile top-spacing-30">SPECIALITY <br />INGREDIENTS.</span>
                     <br />
                     <ReactBootStrap.Row >
                         <ReactBootStrap.Col xs={3} md={3}>
@@ -34,7 +34,7 @@ function SpecialityProductPage() {
                     <span className="default-text grey align-right desktop">Meet the pillars that build credibility right from origins</span>
                     <span className="default-text grey align-center mobile">Meet the pillars that build credibility right from origins</span>
                 </ReactBootStrap.Col>
-            </ReactBootStrap.Row>
+            </div>
 
             <div className="speciality-product-section2">
                 <ReactBootStrap.Row>
@@ -170,14 +170,24 @@ function SpecialityProductPage() {
                 </ReactBootStrap.Col>
             </ReactBootStrap.Row>
 
-            <ReactBootStrap.Row>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/iso.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 65.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Group 149.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Group 148.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 63.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 64.png" className="certif-img" /></ReactBootStrap.Col>
-                <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Group 151.png" className="certif-img" /></ReactBootStrap.Col>
+            <ReactBootStrap.Row className="speciality-product-section2">
+                <ReactBootStrap.Col xs={12} md={12}>
+                    <span className="title-text green">CERTIFICATES</span>
+                    <br />
+                    <ReactBootStrap.Row>
+                    <ReactBootStrap.Col xs={4} md={1}><img src="/certification/iso.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 65.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Group 149.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1} className="flex-center"><img src="/certification/Group 148.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 63.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1}><img src="/certification/Rectangle 64.png" className="certif-img" /></ReactBootStrap.Col>
+                    <ReactBootStrap.Col xs={4} md={1} className="flex-center"><img src="/certification/Group 151.png" className="certif-img" /></ReactBootStrap.Col>
+                    </ReactBootStrap.Row>
+                    
+                    <br />
+                    <br />
+                    <div className="pat-cert-line"></div>
+                </ReactBootStrap.Col>
             </ReactBootStrap.Row>
 
         </>

@@ -1,5 +1,5 @@
 .certif-img{
-    width:100px;
+    width:70px;
 }
 
 @media (max-width:768px){
@@ -8,5 +8,17 @@
         margin-bottom: 20px;
         position: relative;
         left:10px;
+    }
+}
+
+@media (min-width:1024px){
+    .certif-img{
+        width:70px;
+    }
+}
+
+@media (min-width:1200px){
+    .certif-img{
+        width:90px;
     }
 }

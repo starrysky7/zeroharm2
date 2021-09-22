@@ -1,8 +1,23 @@
 
+.flex-row{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    box-sizing:border-box;
+}
 
 .speciality-prod-sect-1-img{
     width:100%;
     height:100%;
+}
+
+.speciality-ingredients-flex{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:center;
+    box-sizing:border-box;
+    padding-right:42px;
 }
 
 .prod-sect-1-icon-container{
@@ -62,6 +77,17 @@ td{
 }
 
 @media only screen and (min-width:375px){
+
+    .flex-row{
+        flex-direction:column!important;
+        height:fit-content;
+    }
+
+    .speciality-ingredients-flex{
+        align-items:center;
+        padding-right:0px;
+    }
+
     .speciality-product-text{
         font-size: 25px;
     }
@@ -84,6 +110,16 @@ td{
 
 @media only screen and (min-width:768px){
 
+    .flex-row{
+        flex-direction:row!important;
+        height:100vh;
+    }
+
+    .speciality-ingredients-flex{
+        align-items:flex-end;
+        padding-right:42px;
+    }
+    
     .speciality-product-section-2{
         height:100vh;
         padding-left:40px;

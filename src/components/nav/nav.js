@@ -21,7 +21,7 @@ const Nav = () => {
         return (
                 <>
 
-                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" bsPrefix="nav">
+                        <ReactBootStrap.Navbar collapseOnSelect expand="lg">
                                 <ReactBootStrap.Navbar.Brand href="#home">
                                         <div className="nav-logo-container" onClick={e => { e.preventDefault(); window.location.href = "/" }}>
                                                 <span className="nav-logo-top">ZEROHARM</span>
