@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a676c13.chunk.css",
-    "main.js": "/static/js/main.e7dcf954.chunk.js",
-    "main.js.map": "/static/js/main.e7dcf954.chunk.js.map",
+    "main.css": "/static/css/main.a6f9f070.chunk.css",
+    "main.js": "/static/js/main.61404fa1.chunk.js",
+    "main.js.map": "/static/js/main.61404fa1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8e2072c.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8e2072c.js.map",
     "static/css/2.d44d9e5f.chunk.css": "/static/css/2.d44d9e5f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b8cd0fe3.chunk.js.map": "/static/js/2.b8cd0fe3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d44d9e5f.chunk.css.map": "/static/css/2.d44d9e5f.chunk.css.map",
-    "static/css/main.3a676c13.chunk.css.map": "/static/css/main.3a676c13.chunk.css.map",
+    "static/css/main.a6f9f070.chunk.css.map": "/static/css/main.a6f9f070.chunk.css.map",
     "static/js/2.b8cd0fe3.chunk.js.LICENSE.txt": "/static/js/2.b8cd0fe3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/FuturaStd-Book.5f83b004.otf",
     "static/media/sectionTwo.css": "/static/media/dna.897b052e.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.b8e2072c.js",
     "static/css/2.d44d9e5f.chunk.css",
     "static/js/2.b8cd0fe3.chunk.js",
-    "static/css/main.3a676c13.chunk.css",
-    "static/js/main.e7dcf954.chunk.js"
+    "static/css/main.a6f9f070.chunk.css",
+    "static/js/main.61404fa1.chunk.js"
   ]
 }

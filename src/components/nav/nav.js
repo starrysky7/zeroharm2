@@ -34,8 +34,8 @@ const Nav = () => {
                                 </div>
                                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                         <ReactBootStrap.Nav className="mr-auto">
-                                                <ReactBootStrap.Nav.Link href="#2" className="nav-item">Origins</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#2" className="nav-item">Origins</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.NavDropdown title="Product" className="mobile">
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="/ncm-100-about" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br/>
@@ -52,10 +52,10 @@ const Nav = () => {
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="nav-mega-menu-btn">
                                         <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
                                                 </ReactBootStrap.NavDropdown>
-                                                <ReactBootStrap.Nav.Link href="#4" className="nav-item">Process</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="#9" className="nav-item">Validation</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="#3" className="nav-item">Genomics</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="#13" className="nav-item">Contact Us</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#4" className="nav-item">Process</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#9" className="nav-item">Validation</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#3" className="nav-item">Genomics</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#13" className="nav-item">Contact Us</ReactBootStrap.Nav.Link>
                                         </ReactBootStrap.Nav>
                                 </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>
