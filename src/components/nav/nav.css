@@ -3,6 +3,8 @@
     position: fixed;
     z-index: 100;
     border-bottom: 1px solid #eee;
+    width:100%;
+    background-color: #fff;
 }
 
 .nav-logo-top {
