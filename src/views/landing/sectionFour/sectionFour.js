@@ -1,7 +1,13 @@
 import './sectionFour.css';
 import * as ReactBootStrap from "react-bootstrap";
+import {useState, useEffect} from 'react';
 
-function sectionFour() {
+function SectionFour(props) {
+
+  useEffect(() => {
+    props.setSection("process");
+  },[])
+
   return (
     <div className="section section4">
       <ReactBootStrap.Row>
@@ -20,5 +26,5 @@ function sectionFour() {
   );
 }
 
-export default sectionFour;
+export default SectionFour;
 

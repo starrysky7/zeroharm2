@@ -14,9 +14,10 @@ import LandingSection12 from './sectionTwelve/sectionTwelve';
 import LandingSection13 from './sectionThirteen/sectionThirteen';
 import './landing.css';
 
-function Landing() {
+function Landing(props) {
 
   const [scrollValue, setScrollValue] = useState(0)
+  const [section, setSection] = useState('');
 
   function getScrollPercent() {
     var h = document.documentElement,
@@ -33,19 +34,19 @@ function Landing() {
   })
   return (
     <div className="landing">
-      <LandingSection1 />
-      <LandingSection2 scrollValue={scrollValue} />
-      <LandingSection4 />
-      <LandingSection5 />
-      <LandingSection6 />
-      <LandingSection7 scrollValue={scrollValue} />
-      <LandingSection9 />
-      <LandingSection8 />
-      <LandingSection3 />
+      <LandingSection1 setSection={setSection} section={section}  />
+      <LandingSection2 scrollValue={scrollValue} setSection={setSection} section={section} />
+      <LandingSection4 setSection={setSection} section={section}  />
+      <LandingSection5 setSection={setSection} section={section}  />
+      <LandingSection6 setSection={setSection} section={section} />
+      <LandingSection7 scrollValue={scrollValue} setSection={setSection} section={section} />
+      <LandingSection9 setSection={setSection} section={section} />
+      <LandingSection8 setSection={setSection} section={section} />
+      <LandingSection3 setSection={setSection} section={section} />
       {/* <LandingSection10 /> */}
       {/* <LandingSection11 /> */}
       {/* <LandingSection12 /> */}
-      <LandingSection13 />
+      <LandingSection13 setSection={setSection} section={section} />
     </div>
   );
 }

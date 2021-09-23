@@ -1,4 +1,5 @@
 import React from 'react';
+import {useState, useEffect} from 'react';
 import Nav from './components/nav/nav'
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Landing from './views/landing/landing';
@@ -25,12 +26,16 @@ import Ncm100ProductForms from './views/ncm-100/ncm-100-product-forms';
 import Ncm100KnowMore from './views/ncm-100/ncm-100-know-more';
 
 export const Routes = () => {
+
+  const [page, setPage] =useState('');
+ 
+
   return (
     <div>
       <Nav />
       <Switch>
         <Route exact path="/home">
-          <Landing />
+          <Landing/>
         </Route>
 
         <Route exact path="/">
@@ -90,19 +95,19 @@ export const Routes = () => {
         </Route> 
 
         <Route exact path="/ncm-100-in-test-we-trust">
-          <Ncm100/>
+          <Ncm100 setPage={setPage} page={page}/>
         </Route>
 
         <Route exact path="/ncm-100-about">
-          <Ncm100About/>
+          <Ncm100About setPage={setPage} page={page}/>
         </Route>
 
         <Route exact path="/ncm-100-physiochemical-properties">
-          <Ncm100PhysiochemicalProperties />
+          <Ncm100PhysiochemicalProperties setPage={setPage} page={page} />
         </Route>
 
         <Route exact path="/ncm-100-product-forms">
-          <Ncm100ProductForms />
+          <Ncm100ProductForms setPage={setPage} page={page}/>
         </Route>
 
         <Route exact path="/ncm-100-know-more">

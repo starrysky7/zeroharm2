@@ -7,7 +7,8 @@
     text-decoration: none;
     font-family: "FuturaStd", sans-serif;
     margin: 42px 100px 42px 0;
-    font-size: 16px;   
+    font-size: 16px; 
+    border-bottom: 2px solid #EAA921;  
 }
 
 .product-nav-item:first-of-type{
@@ -16,6 +17,10 @@
 
 .product-nav-item:hover{
     color:#fff;
+    border-bottom: 2px solid #fff;
+}
+
+.product-nav-item-active{
     border-bottom: 2px solid #fff;
 }
 

@@ -2,7 +2,7 @@ import './ncm-100.css';
 import * as ReactBootStrap from "react-bootstrap";
 import ProductNav from '../../components/product-nav/product-nav';
 
-function Ncm100About() {
+function Ncm100About(props) {
     return (
 
         <div className="section fit-content" >
@@ -12,7 +12,7 @@ function Ncm100About() {
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col xs={12} md={9} lg={9} className="product-details-yellow">
-                    <ProductNav />
+                    <ProductNav/>
                     <div className="responsive-margin">
                         <ReactBootStrap.Row><span className="heading-20 default-text white">KEY FEATURES</span></ReactBootStrap.Row>
                         <ReactBootStrap.Row>

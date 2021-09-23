@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import {useState, useEffect} from 'react';
 import './nav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import * as ReactBootStrap from "react-bootstrap";
 
 
-const Nav = () => {
+const Nav = (props) => {
 
         function opnMegaNavSplIng() {
                 document.getElementById("mega-menu-spc-ing").style.display = "block";
@@ -21,7 +21,7 @@ const Nav = () => {
         return (
                 <>
 
-                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="nav">
+                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="nav" fixed="top">
                                 <ReactBootStrap.Navbar.Brand href="#home">
                                         <div className="nav-logo-container" onClick={e => { e.preventDefault(); window.location.href = "/" }}>
                                                 <span className="nav-logo-top">ZEROHARM</span>
@@ -34,7 +34,7 @@ const Nav = () => {
                                 </div>
                                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                         <ReactBootStrap.Nav className="mr-auto">
-                                                <ReactBootStrap.Nav.Link href="/home#2" className="nav-item">Origins</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#2" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Origins</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.Nav.Link href="/home#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.NavDropdown title="Product" className="mobile">
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
@@ -52,15 +52,15 @@ const Nav = () => {
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="nav-mega-menu-btn">
                                         <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
                                                 </ReactBootStrap.NavDropdown>
-                                                <ReactBootStrap.Nav.Link href="/home#4" className="nav-item">Process</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#9" className="nav-item">Validation</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#3" className="nav-item">Genomics</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#13" className="nav-item">Contact Us</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#4" id="process" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Process</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#9" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Validation</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#3" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Genomics</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#13" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Contact Us</ReactBootStrap.Nav.Link>
                                         </ReactBootStrap.Nav>
                                 </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>
 
-                        <div className="nav-mega-menu" id="mega-menu-spc-ing" onMouseEnter={opnMegaNavSplIng}>
+                        <div className="nav-mega-menu" id="mega-menu-spc-ing" onMouseEnter={opnMegaNavSplIng} onMouseLeave={hidMegaNavSplIng}>
                                 <ReactBootStrap.Row className="mega-menu-row1" >
                                         <ReactBootStrap.Col xs={12} md={4} lg={4}>
                                                 <a href="/speciality-ingredients" className="title-text green">SPECIALITY <br />INGREDIENTS</a>

@@ -78,6 +78,8 @@
     margin-left: 24px;
     font-size: 13px;
     letter-spacing: 0.1em;
+    border-bottom:2px solid #fff;
+    box-sizing:border-box;
 }
 
 .nav-item:hover {

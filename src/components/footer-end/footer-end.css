@@ -44,6 +44,11 @@
     color:#fff;
     margin: 60px 0 22px 0;
     display: block;
+    text-decoration:none;
+}
+
+.footer-end-title:hover{
+    color:#fff;
 }
 
 .footer-end-item{
@@ -56,17 +61,28 @@
     box-sizing:border-box;
 }
 
+.footer-end-item:hover{
+    color:#ccc;
+}
+
 .footer-end-small-text{
     font-family: "FuturaStd", sans-serif;
     color:#fff;
     font-size:11px;
-    display: block;
+    display: inline-block;
     box-sizing:border-box;
+    text-decoration:none;
+    
+}
+
+.footer-end-small-text:hover{
+    color:#ccc;
 }
 
 .terms-text{
     margin-left:82px;
     box-sizing:border-box;
+    text-decoration:none;
 }
 
 .copyright-text{

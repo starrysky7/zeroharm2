@@ -12,6 +12,18 @@
     box-sizing:border-box;
 }
 
+.form-field-validation{
+    display:none;
+    height:auto;
+    width:fit-content;
+    font-size: 10px;
+    color: red;
+    background: #f2dede;
+    color: #a94442;
+    padding: 2px 2px 2px 2px;
+    float: left;
+}
+
 @media (max-width:768px){
     .footer-left .content-container{
         padding-left: 20px;

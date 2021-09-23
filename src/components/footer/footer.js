@@ -14,32 +14,31 @@ function Footer() {
         var validated = 1;
         if (!name) {
             validated = 0;
-            alert("Name field cannot be empty")
+            document.getElementById("name-empty").style.display="block";
         }
 
         if (!name.match(/^[A-Za-z]+$/)) {
             validated = 0;
-            alert("Name can contain only alphabetical characters")
+            document.getElementById("name-alpha").style.display="block";
         }
 
         if (!email) {
             validated = 0;
-            alert("Email field cannot be empty")
-
+            document.getElementById("email-empty").style.display="block";
         }
         if (!email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)) {
             validated = 0;
-            alert("Enter a valid email")
+            document.getElementById("email-invalid").style.display="block";
         }
 
         if (!subject) {
             validated = 0;
-            alert("Subject field cannot be empty")
+            document.getElementById("subject-empty").style.display="block";
         }
      
         if (!message) {
             validated = 0;
-            alert("Message field cannot be empty")
+            document.getElementById("message-empty").style.display="block";
         }
 
 
@@ -86,9 +85,15 @@ function Footer() {
                 <ReactBootStrap.Col xs={12} md={7} >
                     <div className="form-container">
                         <input className="form-field" type="text" placeholder="Your Name(required)" value={name} onChange={e => { e.preventDefault(); setName(e.target.value) }} />
+                        <div className="form-field-validation" id="name-empty">Name field cannot be empty</div>
+                        <div className="form-field-validation" id="name-alpha">Names can contain only alphabets </div>
                         <input className="form-field" type="text" placeholder="Your Email(required)" value={email} onChange={e => { e.preventDefault(); setEmail(e.target.value) }} />
+                        <div className="form-field-validation" id="email-empty">Email field cannot be empty</div>
+                        <div className="form-field-validation" id="email-invalid">Enter Valid Email</div>
                         <input className="form-field" type="text" placeholder="Subject" value={subject} onChange={e => { e.preventDefault(); setSubject(e.target.value) }} />
+                        <div className="form-field-validation" id="subject-empty">Subject field cannot be empty</div>
                         <input className="form-field" type="text" placeholder="Your Message" value={message} onChange={e => { e.preventDefault(); setMessage(e.target.value) }} />
+                        <div className="form-field-validation" id="message-empty">Message field cannot be empty</div>
                         <button className="default-button green" onClick={e => { e.preventDefault(); onSubmit() }}>SUBMIT</button>
                     </div>
                 </ReactBootStrap.Col>

@@ -41,7 +41,7 @@ function FooterEnd() {
 
             <ReactBootStrap.Row className="footer-end-bottom">
                 <ReactBootStrap.Col xs={12} md={4} >
-                    <span className="footer-end-small-text terms-text"><a href="/terms-and-conditions">Terms of Service</a> | Privacy Policy</span>
+                    <span className="footer-end-small-text terms-text"><a href="/terms-and-conditions" className="footer-end-small-text">Terms of Service</a> | Privacy Policy</span>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col xs={12} md={2} >
                 </ReactBootStrap.Col>
