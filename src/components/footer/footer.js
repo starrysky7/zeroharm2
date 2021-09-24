@@ -1,13 +1,21 @@
 import './footer.css';
 import * as ReactBootStrap from "react-bootstrap";
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
-function Footer() {
+function Footer(props) {
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
+
+    useEffect(() =>{
+
+        if(document.getElementById('2').getBoundingClientRect().y<0){
+          props.setSection('origins')
+        }
+    
+      }, [props.scrollValue])
 
     function onSubmit() {
 
@@ -67,7 +75,7 @@ function Footer() {
     }
 
     return (
-        <div className="footer">
+        <div className="footer" id="13">
             <ReactBootStrap.Row>
 
                 <ReactBootStrap.Col xs={12} md={5} className="footer-left">

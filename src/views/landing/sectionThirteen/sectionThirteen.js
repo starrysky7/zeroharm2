@@ -3,7 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function sectionThirteen() {
     return (
-        <div class="section13" id="13">
+        <div class="section13">
             <ReactBootStrap.Row>
 
                 <ReactBootStrap.Col xs={6} md={8} >

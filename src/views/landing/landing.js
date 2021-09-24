@@ -17,7 +17,6 @@ import './landing.css';
 function Landing(props) {
 
   const [scrollValue, setScrollValue] = useState(0)
-  const [section, setSection] = useState('');
 
   function getScrollPercent() {
     var h = document.documentElement,
@@ -32,21 +31,22 @@ function Landing(props) {
       setScrollValue(getScrollPercent())
     })
   })
+
   return (
     <div className="landing">
-      <LandingSection1 setSection={setSection} section={section}  />
-      <LandingSection2 scrollValue={scrollValue} setSection={setSection} section={section} />
-      <LandingSection4 setSection={setSection} section={section}  />
-      <LandingSection5 setSection={setSection} section={section}  />
-      <LandingSection6 setSection={setSection} section={section} />
-      <LandingSection7 scrollValue={scrollValue} setSection={setSection} section={section} />
-      <LandingSection9 setSection={setSection} section={section} />
-      <LandingSection8 setSection={setSection} section={section} />
-      <LandingSection3 setSection={setSection} section={section} />
+      <LandingSection1 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection2 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection4 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection5 scrollValue={scrollValue} setSection={props.setSection}  />
+      <LandingSection6 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection7 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection9 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection8 scrollValue={scrollValue} setSection={props.setSection} />
+      <LandingSection3 scrollValue={scrollValue} setSection={props.setSection} />
       {/* <LandingSection10 /> */}
       {/* <LandingSection11 /> */}
       {/* <LandingSection12 /> */}
-      <LandingSection13 setSection={setSection} section={section} />
+      <LandingSection13 scrollValue={scrollValue} setSection={props.setSection} />
     </div>
   );
 }

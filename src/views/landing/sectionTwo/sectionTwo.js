@@ -41,6 +41,15 @@ function SectionTwo(props) {
       anim.seek(anim.duration * (props.scrollValue * 0.01));
   }, [props.scrollValue, anim]);
 
+  useEffect(() => {
+
+    if (document.getElementById)
+      if (document.getElementById('2').getBoundingClientRect().y < 0) {
+        props.setSection('origins')
+      }
+
+  }, [props.scrollValue])
+
   return (
 
     <div className="section section2" ref={s2} id="2">

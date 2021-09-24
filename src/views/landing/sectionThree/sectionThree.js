@@ -1,8 +1,18 @@
 import './sectionThree.css';
 import * as ReactBootStrap from "react-bootstrap";
+import {useEffect} from 'react'
 //import  image from ".image_02.png"
 
-function sectionTwo() {
+function SectionTwo(props) {
+  
+  useEffect(() =>{
+
+    if(document.getElementById('3').getBoundingClientRect().y<0){
+      props.setSection('genomics')
+    }
+
+  }, [props.scrollValue])
+
   return (
     <div className="section" id="3">
       <ReactBootStrap.Row>
@@ -25,7 +35,7 @@ function sectionTwo() {
   );
 }
 
-export default sectionTwo;
+export default SectionTwo;
 
 
 

@@ -3,10 +3,13 @@ import * as ReactBootStrap from "react-bootstrap";
 import {useState, useEffect} from 'react';
 
 function SectionFour(props) {
+  useEffect(() =>{
 
-  useEffect(() => {
-    props.setSection("process");
-  },[])
+    if(document.getElementById('4').getBoundingClientRect().y<0){
+      props.setSection('process')
+    }
+
+  }, [props.scrollValue])
 
   return (
     <div className="section section4">

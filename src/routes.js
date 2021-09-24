@@ -25,17 +25,16 @@ import Ncm100PhysiochemicalProperties from './views/ncm-100/ncm-100-physiochemic
 import Ncm100ProductForms from './views/ncm-100/ncm-100-product-forms';
 import Ncm100KnowMore from './views/ncm-100/ncm-100-know-more';
 
-export const Routes = () => {
+export const Routes = () => { 
 
-  const [page, setPage] =useState('');
- 
+  const [section, setSection] =useState('');
 
   return (
     <div>
-      <Nav />
+      <Nav section={section}/>
       <Switch>
         <Route exact path="/home">
-          <Landing/>
+          <Landing setSection={setSection}/>
         </Route>
 
         <Route exact path="/">
@@ -95,19 +94,19 @@ export const Routes = () => {
         </Route> 
 
         <Route exact path="/ncm-100-in-test-we-trust">
-          <Ncm100 setPage={setPage} page={page}/>
+          <Ncm100/>
         </Route>
 
         <Route exact path="/ncm-100-about">
-          <Ncm100About setPage={setPage} page={page}/>
+          <Ncm100About/>
         </Route>
 
         <Route exact path="/ncm-100-physiochemical-properties">
-          <Ncm100PhysiochemicalProperties setPage={setPage} page={page} />
+          <Ncm100PhysiochemicalProperties/>
         </Route>
 
         <Route exact path="/ncm-100-product-forms">
-          <Ncm100ProductForms setPage={setPage} page={page}/>
+          <Ncm100ProductForms/>
         </Route>
 
         <Route exact path="/ncm-100-know-more">

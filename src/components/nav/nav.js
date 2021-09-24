@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import './nav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -17,6 +17,12 @@ const Nav = (props) => {
         function hidMegaNavSplIng() {
                 document.getElementById("mega-menu-spc-ing").style.display = "none";
         }
+
+        useEffect(() => {
+                if (props.section == 'process') {
+                        document.getElementById('process').style.borderBottomColor = "green"
+                }
+        }, [props.section])
 
         return (
                 <>
@@ -38,19 +44,19 @@ const Nav = (props) => {
                                                 <ReactBootStrap.Nav.Link href="/home#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.NavDropdown title="Product" className="mobile">
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
-                                                        <ReactBootStrap.NavDropdown.Item href="/ncm-100-about" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br/>
-                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HCM 100</ReactBootStrap.NavDropdown.Item><br/>
-                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NAG 100</ReactBootStrap.NavDropdown.Item><br/>
-                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HAG 100</ReactBootStrap.NavDropdown.Item><br/>
+                                                        <ReactBootStrap.NavDropdown.Item href="/ncm-100-about" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br />
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HCM 100</ReactBootStrap.NavDropdown.Item><br />
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">NAG 100</ReactBootStrap.NavDropdown.Item><br />
+                                                        <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">HAG 100</ReactBootStrap.NavDropdown.Item><br />
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">STANDARD INGREDIENTS</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">CUSTOMIZED APIs</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY APIs</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="grey align-left default-styled-text">View all products</ReactBootStrap.NavDropdown.Item>
-                                                        <br/>
+                                                        <br />
                                                         <ReactBootStrap.NavDropdown.Item href="" bsPrefix="nav-mega-menu-btn">
-                                        <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
+                                                                <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
                                                 </ReactBootStrap.NavDropdown>
                                                 <ReactBootStrap.Nav.Link href="/home#4" id="process" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Process</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.Nav.Link href="/home#9" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Validation</ReactBootStrap.Nav.Link>

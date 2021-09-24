@@ -1,8 +1,18 @@
 import './sectionEight.css';
+import { useEffect } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
 //import  image from ".image_02.png"
 
-function sectionEight() {
+function SectionEight(props) {
+
+  useEffect(() =>{
+
+    if(document.getElementById('9').getBoundingClientRect().y<0){
+      props.setSection('validation')
+    }
+
+  }, [props.scrollValue])
+
   return (
     <div className="section section8" id="9">
       <ReactBootStrap.Row className="desktop">
@@ -60,7 +70,7 @@ function sectionEight() {
   );
 }
 
-export default sectionEight;
+export default SectionEight;
 
 
 
