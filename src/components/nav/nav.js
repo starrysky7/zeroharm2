@@ -18,10 +18,50 @@ const Nav = (props) => {
                 document.getElementById("mega-menu-spc-ing").style.display = "none";
         }
 
+        function resetBorder(){
+                document.getElementById('origins').style.borderBottomColor = "white";
+                document.getElementById('product').style.borderBottomColor = "white";
+                document.getElementById('process').style.borderBottomColor = "white";
+                document.getElementById('validation').style.borderBottomColor = "white";
+                document.getElementById('genomics').style.borderBottomColor = "white";
+                document.getElementById('contact').style.borderBottomColor = "white";
+        }
+
         useEffect(() => {
-                if (props.section == 'process') {
-                        document.getElementById('process').style.borderBottomColor = "green"
+                console.log(props.section)
+                if (props.section == 'origins') {
+                        resetBorder();
+                        document.getElementById('origins').style.borderBottomColor = "#005d2e"
                 }
+
+                if (props.section == 'process') {
+                        resetBorder();
+                        document.getElementById('process').style.borderBottomColor = "#005d2e"
+                }
+
+                if (props.section == 'validation') {
+                        resetBorder();
+                        document.getElementById('validation').style.borderBottomColor = "#005d2e"
+                }
+
+                if (props.section == 'genomics') {
+                        resetBorder();
+                        document.getElementById('genomics').style.borderBottomColor = "#005d2e"
+                }
+
+                if (props.section == 'contact') {
+                        resetBorder();
+                        document.getElementById('contact').style.borderBottomColor = "#005d2e"
+                }
+
+                if (props.section == 'begin') {
+                        resetBorder();
+                }
+
+                if (props.section == 'actionable') {
+                        resetBorder();
+                }
+               
         }, [props.section])
 
         return (
@@ -40,8 +80,8 @@ const Nav = (props) => {
                                 </div>
                                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                         <ReactBootStrap.Nav className="mr-auto">
-                                                <ReactBootStrap.Nav.Link href="/home#2" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Origins</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng}>Product</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#2" className="nav-item" onMouseEnter={hidMegaNavSplIng} id="origins">Origins</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#" className="nav-item desktop" onMouseEnter={opnMegaNavSplIng} id="product">Product</ReactBootStrap.Nav.Link>
                                                 <ReactBootStrap.NavDropdown title="Product" className="mobile">
                                                         <ReactBootStrap.NavDropdown.Item href="/speciality-ingredients" bsPrefix="title-text green heading-20">SPECIALITY INGREDIENTS</ReactBootStrap.NavDropdown.Item>
                                                         <ReactBootStrap.NavDropdown.Item href="/ncm-100-about" bsPrefix="grey align-left default-styled-text">NCM 100</ReactBootStrap.NavDropdown.Item><br />
@@ -59,9 +99,9 @@ const Nav = (props) => {
                                                                 <a href="" className="mega-menu-btn-txt align-left default-styled-text">VIEW ALL PRODUCTS</a></ReactBootStrap.NavDropdown.Item>
                                                 </ReactBootStrap.NavDropdown>
                                                 <ReactBootStrap.Nav.Link href="/home#4" id="process" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Process</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#9" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Validation</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#3" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Genomics</ReactBootStrap.Nav.Link>
-                                                <ReactBootStrap.Nav.Link href="/home#13" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Contact Us</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#9" id="validation" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Validation</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#3" id="genomics" className="nav-item" onMouseEnter={hidMegaNavSplIng}>Genomics</ReactBootStrap.Nav.Link>
+                                                <ReactBootStrap.Nav.Link href="/home#13" id="contact"className="nav-item" onMouseEnter={hidMegaNavSplIng}>Contact Us</ReactBootStrap.Nav.Link>
                                         </ReactBootStrap.Nav>
                                 </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>

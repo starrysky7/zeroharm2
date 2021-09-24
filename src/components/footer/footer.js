@@ -11,8 +11,8 @@ function Footer(props) {
 
     useEffect(() =>{
 
-        if(document.getElementById('2').getBoundingClientRect().y<0){
-          props.setSection('origins')
+        if(document.getElementById('13').getBoundingClientRect().y<-10){
+          props.setSection('contact')
         }
     
       }, [props.scrollValue])

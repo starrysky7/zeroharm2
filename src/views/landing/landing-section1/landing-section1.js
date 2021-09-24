@@ -1,9 +1,18 @@
 import './landing-section1.css';
 import * as ReactBootStrap from "react-bootstrap";
+import {useState, useEffect} from 'react';
 
-function LandingSection1() {
+function LandingSection1(props) {
+  useEffect(() =>{
+
+    if(document.getElementById('1').getBoundingClientRect().y<0){
+      props.setSection('begin')
+    }
+
+  }, [props.scrollValue])
+
   return (
-    <div className="section section1">
+    <div className="section section1" id="1">
       <ReactBootStrap.Row className="desktop">
 
         <ReactBootStrap.Col sm={3} md={3} xs={12}>

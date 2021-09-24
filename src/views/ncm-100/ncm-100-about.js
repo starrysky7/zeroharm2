@@ -1,8 +1,11 @@
 import './ncm-100.css';
 import * as ReactBootStrap from "react-bootstrap";
 import ProductNav from '../../components/product-nav/product-nav';
+import {useState, useEffect} from "react";
 
-function Ncm100About(props) {
+function Ncm100About() {
+
+
     return (
 
         <div className="section fit-content" >

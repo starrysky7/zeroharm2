@@ -28,6 +28,22 @@ import Ncm100KnowMore from './views/ncm-100/ncm-100-know-more';
 export const Routes = () => { 
 
   const [section, setSection] =useState('');
+  const [scrollValue, setScrollValue] = useState(0);
+
+  function getScrollPercent() {
+    var h = document.documentElement,
+      b = document.body,
+      st = 'scrollTop',
+      sh = 'scrollHeight';
+    return (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', (e) => {
+      setScrollValue(getScrollPercent())
+    })
+  })
+
 
   return (
     <div>
@@ -98,7 +114,7 @@ export const Routes = () => {
         </Route>
 
         <Route exact path="/ncm-100-about">
-          <Ncm100About/>
+          <Ncm100About />
         </Route>
 
         <Route exact path="/ncm-100-physiochemical-properties">
@@ -114,7 +130,7 @@ export const Routes = () => {
         </Route>
 
       </Switch>
-       <Footer />
+       <Footer scrollValue={scrollValue} setSection={setSection}/>
       <FooterEnd />
       <StickyChat />
     </div>

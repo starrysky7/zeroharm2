@@ -1,10 +1,20 @@
 import './sectionFive.css';
 import * as ReactBootStrap from "react-bootstrap";
+import {useEffect} from 'react';
 //import  image from ".image_02.png"
 
-function sectionFive() {
+function SectionFive(props) {
+
+  useEffect(() =>{
+
+    if(document.getElementById('5').getBoundingClientRect().y<0){
+      props.setSection('actionable')
+    }
+
+  }, [props.scrollValue])
+
   return (
-    <div className="section">
+    <div className="section" id="5">
       <ReactBootStrap.Row>
 
         <ReactBootStrap.Col xs={12} md={6}>
@@ -27,7 +37,7 @@ function sectionFive() {
   );
 }
 
-export default sectionFive;
+export default SectionFive;
 
 
 
